@@ -1,0 +1,29 @@
+﻿@using Stimulsoft.Report.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.StiNetCoreViewer("StiNetCoreViewer1", new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    }
+})
+
+<script type="text/javascript">
+    jsStiNetCoreViewer1.onready = function () {
+        var customButton = jsStiNetCoreViewer1.SmallButton("customButton", "Custom Button", "emptyImage");
+        customButton.image.src = "https://www.stimulsoft.com/images/logo_16.png";
+        customButton.action = function () {
+            alert("Custom Button Event");
+        }
+
+        var toolbarTable = jsStiNetCoreViewer1.controls.toolbar.firstChild.firstChild;
+        var buttonsTable = toolbarTable.rows[0].firstChild.firstChild;
+        var customButtonCell = buttonsTable.rows[0].insertCell(0);
+        customButtonCell.appendChild(customButton);
+    }
+</script>

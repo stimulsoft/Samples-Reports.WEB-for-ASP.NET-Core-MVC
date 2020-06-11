@@ -29,7 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edit Report in the Designer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Change the Viewer Theme", "Change the Viewer Theme\Change the Viewer Theme.csproj", "{20543E40-95C9-47D6-BFC8-66D0711D688F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with Reports in macOS", "Working with Reports in macOS\Working with Reports in macOS.csproj", "{8ED3E8CE-D9ED-42DE-98EC-E9A5D034DF44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Working with Reports in macOS", "Working with Reports in macOS\Working with Reports in macOS.csproj", "{8ED3E8CE-D9ED-42DE-98EC-E9A5D034DF44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Custom Function to the Designer", "Add Custom Function to the Designer\Add Custom Function to the Designer.csproj", "{516DDCFE-8620-417D-949D-3F06D86CCCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Button on the Toolbar of the Viewer", "Custom Button on the Toolbar of the Viewer\Custom Button on the Toolbar of the Viewer.csproj", "{FD7B7C67-7115-4638-ADB0-3F1FF895C2CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{8ED3E8CE-D9ED-42DE-98EC-E9A5D034DF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ED3E8CE-D9ED-42DE-98EC-E9A5D034DF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ED3E8CE-D9ED-42DE-98EC-E9A5D034DF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516DDCFE-8620-417D-949D-3F06D86CCCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516DDCFE-8620-417D-949D-3F06D86CCCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516DDCFE-8620-417D-949D-3F06D86CCCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516DDCFE-8620-417D-949D-3F06D86CCCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7B7C67-7115-4638-ADB0-3F1FF895C2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7B7C67-7115-4638-ADB0-3F1FF895C2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7B7C67-7115-4638-ADB0-3F1FF895C2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7B7C67-7115-4638-ADB0-3F1FF895C2CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
