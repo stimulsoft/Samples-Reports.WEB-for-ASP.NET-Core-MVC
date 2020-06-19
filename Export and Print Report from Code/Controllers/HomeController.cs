@@ -51,11 +51,6 @@ namespace Export_and_Print_Report_from_Code.Controllers
             var report = new StiReport();
             report.Load(reportPath);
 
-            var dataPath = StiNetCoreHelper.MapPath(this, "Reports/Data/Demo.xml");
-            var data = new DataSet("Demo");
-            data.ReadXml(dataPath);
-            report.RegData(data);
-
             return report;
         }
 

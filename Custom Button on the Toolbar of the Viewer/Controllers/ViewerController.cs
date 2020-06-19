@@ -33,11 +33,6 @@ namespace Custom_Button_on_the_Toolbar_of_the_Viewer.Controllers
             // Load report template
             report.Load(StiNetCoreHelper.MapPath(this, "Reports/TwoSimpleLists.mrt"));
 
-            // Load data from XML file for report template
-            var data = new DataSet("Demo");
-            data.ReadXml(StiNetCoreHelper.MapPath(this, "Reports/Data/Demo.xml"));
-            report.RegData(data);
-
             return StiNetCoreViewer.GetReportResult(this, report);
         }
 

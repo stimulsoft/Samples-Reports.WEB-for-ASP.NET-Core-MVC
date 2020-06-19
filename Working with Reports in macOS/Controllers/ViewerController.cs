@@ -36,15 +36,6 @@ namespace Working_with_Reports_in_macOS.Controllers
             // Load report template
             //report.Load(StiNetCoreHelper.MapPath(this, "Reports/TwoSimpleLists.mrt"));
 
-            // Load data from XML file for report template
-            if (!report.IsDocument)
-            {
-                DataSet data = new DataSet("Demo");
-                data.ReadXml(StiNetCoreHelper.MapPath(this, "Reports/Data/Demo.xml"));
-
-                report.RegData(data);
-            }
-
             return StiNetCoreViewer.GetReportResult(this, report);
         }
 

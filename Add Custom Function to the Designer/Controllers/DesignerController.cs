@@ -60,17 +60,6 @@ namespace Add_Custom_Function_to_the_Designer.Controllers
             return StiNetCoreDesigner.GetReportResult(this, report);
         }
 
-        public IActionResult PreviewReport()
-        {
-            var data = new DataSet("Demo");
-            data.ReadXml(StiNetCoreHelper.MapPath(this, "Reports/Data/Demo.xml"));
-
-            var report = StiNetCoreDesigner.GetActionReportObject(this);
-            report.RegData(data);
-
-            return StiNetCoreDesigner.PreviewReportResult(this, report);
-        }
-
         public IActionResult DesignerEvent()
         {
             return StiNetCoreDesigner.DesignerEventResult(this);
