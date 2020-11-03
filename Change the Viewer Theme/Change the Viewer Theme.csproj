@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2020.4.1.1" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2020.5.1" />
   </ItemGroup>
 
 </Project>
