@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="runtime.osx.10.10-x64.CoreCompat.System.Drawing" Version="5.8.64" />
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2020.5.1" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.1.1" />
   </ItemGroup>
 
 </Project>

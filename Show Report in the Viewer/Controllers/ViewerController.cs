@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Mvc;
+using StiReports;
+using Stimulsoft.Base;
 
 namespace Show_Report_in_the_Viewer.Controllers
 {
@@ -42,6 +44,24 @@ namespace Show_Report_in_the_Viewer.Controllers
                 case 2:
                     report.Load(StiNetCoreHelper.MapPath(this, "Reports/TwoSimpleLists.mrt"));
                     break;
+
+                // Load compiled report class
+                case 3:
+                    report = new StiMasterDetail();
+                    break;
+
+                // Load compiled report class
+                case 4:
+                    report = new StiParametersSelectingCountryReport();
+                    break;
+            }
+
+            // Load data from JSON file for report template
+            if (!report.IsDocument)
+            {
+                var data = StiJsonToDataSetConverterV2.GetDataSetFromFile(StiNetCoreHelper.MapPath(this, "Data/Demo.json"));
+                report.Dictionary.Databases.Clear();
+                report.RegData(data);
             }
 
             return StiNetCoreViewer.GetReportResult(this, report);
