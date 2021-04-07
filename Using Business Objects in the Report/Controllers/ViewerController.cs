@@ -25,16 +25,35 @@ namespace Using_Business_Objects_in_the_Report.Controllers
             return View();
         }
 
+        public IActionResult ActionITypedList()
+        {
+            return View("ViewITypedList");
+        }
+
         public IActionResult ActionIEnumerable()
         {
             return View("ViewIEnumerable");
         }
 
-        public IActionResult ActionITypedList()
+        public IActionResult ActionITypedListBO()
         {
-            return View("ViewITypedList");
+            return View("ViewITypedListBO");
         }
-        
+
+        public IActionResult ActionIEnumerableBO()
+        {
+            return View("ViewIEnumerableBO");
+        }
+
+        public IActionResult GetReportITypedList()
+        {
+            var report = new StiReport();
+            report.Load(StiNetCoreHelper.MapPath(this, "Reports/BusinessObjects_ITypedList.mrt"));
+            report.RegData("EmployeeITypedList", CreateBusinessObjectsITypedList.GetEmployees());
+
+            return StiNetCoreViewer.GetReportResult(this, report);
+        }
+
         public IActionResult GetReportIEnumerable()
         {
             var report = new StiReport();
@@ -44,11 +63,22 @@ namespace Using_Business_Objects_in_the_Report.Controllers
             return StiNetCoreViewer.GetReportResult(this, report);
         }
 
-        public IActionResult GetReportITypedList()
+        public IActionResult GetReportITypedListBO()
         {
             var report = new StiReport();
-            report.Load(StiNetCoreHelper.MapPath(this, "Reports/BusinessObjects_ITypedList.mrt"));
-            report.RegData("EmployeeITypedList", CreateBusinessObjectsITypedList.GetEmployees());
+            report.Load(StiNetCoreHelper.MapPath(this, "Reports/BusinessObjects_ITypedList_BO.mrt"));
+            report.RegBusinessObject("EmployeeITypedList", CreateBusinessObjectsITypedList.GetEmployees());
+            report.Dictionary.SynchronizeBusinessObjects(2);
+
+            return StiNetCoreViewer.GetReportResult(this, report);
+        }
+
+        public IActionResult GetReportIEnumerableBO()
+        {
+            var report = new StiReport();
+            report.Load(StiNetCoreHelper.MapPath(this, "Reports/BusinessObjects_IEnumerable_BO.mrt"));
+            report.RegBusinessObject("EmployeeIEnumerable", CreateBusinessObjectsIEnumerable.GetEmployees());
+            report.Dictionary.SynchronizeBusinessObjects(2);
 
             return StiNetCoreViewer.GetReportResult(this, report);
         }
