@@ -1154,7 +1154,7 @@
     <groupGridDrawingOptions>Opzioni grafiche della Griglia</groupGridDrawingOptions>
     <groupGridOptions>Opzioni griglia</groupGridOptions>
     <groupGridSize>Dimensioni griglia</groupGridSize>
-    <groupMainOptions>Opzioni principali per lavorare con il report designer</groupMainOptions>
+    <groupMainOptions>Opzioni principali per lavorare con il designer</groupMainOptions>
     <groupMarkersStyle>Stile Marcatore</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Opzioni per Info Rapide</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Per favore, seleziona il tipo di GUI</groupPleaseSelectTypeOfGui>
@@ -3547,7 +3547,7 @@
     <CrossBands>Bande incrociate</CrossBands>
     <Dashboard>Dashboard</Dashboard>
     <Dialogs>Controlli</Dialogs>
-    <EditStyles>[Edita Stili]</EditStyles>
+    <EditStyles>Edita Stili</EditStyles>
     <Errors>Errori</Errors>
     <EventsTab>Eventi</EventsTab>
     <ExpandAll>Espandi tutte</ExpandAll>

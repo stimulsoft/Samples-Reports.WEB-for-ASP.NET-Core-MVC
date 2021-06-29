@@ -1008,7 +1008,7 @@
     <groupGridDrawingOptions>Alternativ för rita stödlinjer</groupGridDrawingOptions>
     <groupGridOptions>Alternativ för stödlinjer</groupGridOptions>
     <groupGridSize>Storlek på stödlinjer</groupGridSize>
-    <groupMainOptions>Huvudalternativ för report designer</groupMainOptions>
+    <groupMainOptions>Huvudalternativ för designer</groupMainOptions>
     <groupMarkersStyle>Stil på markör</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Alternativ för informationsöversikt</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Välj GUI-typ</groupPleaseSelectTypeOfGui>
@@ -3402,7 +3402,7 @@
     <CrossBands>Cross Bands</CrossBands>
     <Dashboard>Kontrollpanel</Dashboard>
     <Dialogs>Dialoger</Dialogs>
-    <EditStyles>[Redigera stiler]</EditStyles>
+    <EditStyles>Redigera stiler</EditStyles>
     <Errors>Fel</Errors>
     <EventsTab>Händelseflik</EventsTab>
     <ExpandAll>Expandera alla</ExpandAll>

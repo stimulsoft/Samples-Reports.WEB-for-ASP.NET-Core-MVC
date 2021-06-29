@@ -137,6 +137,8 @@
     <Submit>Изпрати</Submit>
     <Test>Проверка</Test>
     <Up>Нагоре</Up>
+    <Upgrade>Надграждане</Upgrade>
+    <UpgradeNow>Надгради сега</UpgradeNow>
     <Upload>Качване</Upload>
     <Waiting>Очакване</Waiting>
     <Yes>&amp;Да</Yes>
@@ -147,11 +149,13 @@
     <AddFilter>&amp;Добави филтър</AddFilter>
     <AddSeries>&amp;Добави серия</AddSeries>
     <AddStrip>Добави ивица</AddStrip>
+    <AddTrendLine>Добави линия на тренда</AddTrendLine>
     <Area>Област</Area>
     <Axes>Оси</Axes>
     <AxisReverse>Обърни</AxisReverse>
     <AxisX>Ос X</AxisX>
     <AxisY>Ос Y</AxisY>
+    <BoxAndWhisker>Кутия с Мустаци</BoxAndWhisker>
     <Bubble>Bubble</Bubble>
     <Candlestick>Свещник</Candlestick>
     <ChartConditionsCollectionForm>Условия</ChartConditionsCollectionForm>
@@ -178,6 +182,7 @@
     <Gantt>Гант</Gantt>
     <GridInterlaced>Преплетени</GridInterlaced>
     <GridLines>Растерни линии</GridLines>
+    <Histogram>Хистограма</Histogram>
     <LabelAlignment>Подравняване:</LabelAlignment>
     <LabelAlignmentHorizontal>Хоризонтално:</LabelAlignmentHorizontal>
     <LabelAlignmentVertical>Верикално:</LabelAlignmentVertical>
@@ -270,8 +275,14 @@
     <Strip>Ивица</Strip>
     <StripsEditorForm>Редактор на ивици</StripsEditorForm>
     <Style>Стил</Style>
+    <Sunburst>Sunburst</Sunburst>
     <Treemap>Дървовидна карта</Treemap>
+    <TrendLinesEditorForm>Редактор на линиите на тренда</TrendLinesEditorForm>
+    <Waterfall>Водопад</Waterfall>
   </Chart>
+  <CharterMapEditor>
+    <Characters>Символи</Characters>
+  </CharterMapEditor>
   <ChartRibbon>
     <Axes>Оси</Axes>
     <AxesArrowStyle>Стил на стрелка</AxesArrowStyle>
@@ -341,6 +352,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>Прочетох и приемам {0} и {1}</AcceptTermsAndPrivacyPolicy>
+    <Account>Регистрация</Account>
     <AccountSettings>Настройки на профила</AccountSettings>
     <AddAPlace>Добави място</AddAPlace>
     <AreYouSureYouWantDeleteReport>Сигурни ли сте, че искате да изтриете "{0}" отчет от диска?</AreYouSureYouWantDeleteReport>
@@ -350,6 +362,7 @@
     <ButtonDeleteAll>Изтрий всичко</ButtonDeleteAll>
     <ButtonDesign>Дизайн на отчет</ButtonDesign>
     <ButtonLater>По-късно</ButtonLater>
+    <ButtonLogInWith>Влез с {0}</ButtonLogInWith>
     <ButtonLogout>Изход</ButtonLogout>
     <ButtonPublish>Публикувай</ButtonPublish>
     <ButtonPurchase>Купи</ButtonPurchase>
@@ -360,6 +373,7 @@
     <ButtonRun>Старт</ButtonRun>
     <ButtonShare>Сподели</ButtonShare>
     <ButtonSignUp>Регистрирай се</ButtonSignUp>
+    <ButtonSignUpWith>Регистрирайте се с {0}</ButtonSignUpWith>
     <ButtonSkip>Пропусни</ButtonSkip>
     <ButtonView>Преглед</ButtonView>
     <ButtonWhereUsed>Къде се използва?</ButtonWhereUsed>
@@ -372,6 +386,7 @@
     <Create>Създай</Create>
     <CreateError>Грешка при създаване на отчета!</CreateError>
     <CreateNewCollection>Създай нова колекция</CreateNewCollection>
+    <CreateYourTeam>Създайте своя екип</CreateYourTeam>
     <CreatingReport>Създаване на отчет...</CreatingReport>
     <DashboardWindowTitleNew>Ново табло</DashboardWindowTitleNew>
     <DeleteFile>Изтрий файл</DeleteFile>
@@ -390,6 +405,8 @@
     <HyperlinkHavePassword>Има парола</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>Регистрирайте нов профил</HyperlinkRegisterAccount>
     <InstallSamples>Инсталиране на Примери</InstallSamples>
+    <Invitations>Покани</Invitations>
+    <Invite>Поканете</Invite>
     <LabelAddCloudFolder>Свържете папката си Stimulsoft Cloud с отчетите и таблото за управление.</LabelAddCloudFolder>
     <LabelAddFolder>Добавете локалната си папка с отчетите и таблото за управление.</LabelAddFolder>
     <labelCollectionName>Име на колекция:</labelCollectionName>
@@ -405,6 +422,7 @@
     <LabelForeground>Преден план:</LabelForeground>
     <LabelFromReport>От отчет</LabelFromReport>
     <LabelFromReportCode>От отчет (дефиниране в кода)</LabelFromReportCode>
+    <LabelInviteUser>Поканете нови потребители в екипа си. Изпращайте покани на имейлите им.</LabelInviteUser>
     <LabelLastLogin>Последно влизане:</LabelLastLogin>
     <LabelLastTime>Последен път:</LabelLastTime>
     <LabelModified>Променено:</LabelModified>
@@ -418,11 +436,13 @@
     <LabelResultType>Изходен тип:</LabelResultType>
     <LabelSeparateReport>Отделен файл на отчет (и скриптове)</LabelSeparateReport>
     <LabelShowReport>Покажи отчет:</LabelShowReport>
+    <LabelStartDate>Начална дата:</LabelStartDate>
     <labelUserName>Потребител:</labelUserName>
     <License>Лиценз</License>
     <LicenseInformation>Информация за лиценза</LicenseInformation>
     <LicenseKey>Лицензен ключ</LicenseKey>
     <Login>Вход</Login>
+    <MyTeam>Моят отбор</MyTeam>
     <NofM>{0}: {1} от {2}</NofM>
     <Open>Отвори</Open>
     <OpenFile>Отвори файл</OpenFile>
@@ -459,6 +479,7 @@
     <SaveAsType>Съхрани като тип</SaveAsType>
     <SaveFile>Съхрани файл</SaveFile>
     <SavingToStimulsoftCloudPleaseWait>Съхраняване на отчета в Stimulsoft облака. Моля почакайте!</SavingToStimulsoftCloudPleaseWait>
+    <SearchForOnlineTemplates>Търсене онлайн шаблони</SearchForOnlineTemplates>
     <ShareWindowTitleNew>Сподели</ShareWindowTitleNew>
     <ShowAllFiles>Покажи всички файлове</ShowAllFiles>
     <ShowNotificationMessages>Покажи информационни съобщения</ShowNotificationMessages>
@@ -466,6 +487,7 @@
     <TabItemEmbedCode>Вграден код</TabItemEmbedCode>
     <TabItemQRCode>QR код</TabItemQRCode>
     <TabItemShare>Връзка за споделяне</TabItemShare>
+    <Team>Отбор</Team>
     <TermsOfUse>Условия</TermsOfUse>
     <TextActivated>Активиран</TextActivated>
     <TextActivationDate>Дата на активация</TextActivationDate>
@@ -551,6 +573,7 @@
   </Cloud>
   <Components>
     <StiBarCode>Баркод</StiBarCode>
+    <StiButton>Бутон</StiButton>
     <StiChart>Диаграма</StiChart>
     <StiCheckBox>Контролно поле</StiCheckBox>
     <StiChildBand>Подчинен</StiChildBand>
@@ -589,6 +612,7 @@
     <StiIndicator>Индикатор</StiIndicator>
     <StiListBox>List Box</StiListBox>
     <StiMap>Карта</StiMap>
+    <StiMathFormula>Матем. Формула</StiMathFormula>
     <StiOnlineMap>Online Map</StiOnlineMap>
     <StiOverlayBand>Подложка</StiOverlayBand>
     <StiPage>Страница</StiPage>
@@ -609,9 +633,11 @@
     <StiRichText>Rich текст</StiRichText>
     <StiRoundedRectanglePrimitive>Закръглен правоъгълник</StiRoundedRectanglePrimitive>
     <StiShape>Очертание</StiShape>
+    <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Вложен отчет</StiSubReport>
     <StiSystemText>Системен текст</StiSystemText>
     <StiTable>Таблица</StiTable>
+    <StiTableOfContents>Съдържание</StiTableOfContents>
     <StiText>Текст</StiText>
     <StiTextInCells>Текст в клетки</StiTextInCells>
     <StiTreeView>Tree View</StiTreeView>
@@ -623,9 +649,11 @@
   <Dashboard>
     <AddRange>Добавяне обхват</AddRange>
     <AfterGroupingData>Приложете след групиране на данните</AfterGroupingData>
+    <AllowUserColumnSelection>Разрешаване на избор на колона на потребителя</AllowUserColumnSelection>
     <AllowUserDrillDown>Разрешаване на детаилизиране</AllowUserDrillDown>
     <AllowUserFiltering>Резрешаване филтриране</AllowUserFiltering>
     <AllowUserSorting>Разрешаване сортиране</AllowUserSorting>
+    <Blank>(Празно)</Blank>
     <Blanks>(Бланки)</Blanks>
     <BooleanFilters>Булеви филтри</BooleanFilters>
     <CannotLoadDashboard>Не можете да заредите отчет с табла за управление.</CannotLoadDashboard>
@@ -636,7 +664,9 @@
     <ColorScale>Скала с цветове</ColorScale>
     <ColumnInteractions>Взаимодействия с колони</ColumnInteractions>
     <CustomFilter>Потрбителски &amp;филтри...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>Таблата не се поддържат в WPF дизайнера.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>Лената с данни</DataBars>
+    <DataFilterGrouping>Тази операция се използва само за групиране на различни колони.</DataFilterGrouping>
     <DataNotDefined>Недефинирани данни</DataNotDefined>
     <DateFilters>Филтри с дата</DateFilters>
     <Dimension>Размер</Dimension>
@@ -664,6 +694,7 @@
     <LimitRows>Пропусни и ограничи редовете</LimitRows>
     <Measure>Мярка</Measure>
     <Measures>Мерки</Measures>
+    <Metrics>Показатели</Metrics>
     <NewDimension>Нов размер</NewDimension>
     <NewField>Ново поле</NewField>
     <NewMeasure>Нова мярка</NewMeasure>
@@ -678,6 +709,7 @@
     <RemoveActions>П&amp;ремахнете действията</RemoveActions>
     <RemoveAllFields>Премахнете всички полета</RemoveAllFields>
     <RemoveField>Премахни поле</RemoveField>
+    <RemoveMobileSurface>Премахнете мобилната повърхност</RemoveMobileSurface>
     <ReplaceValues>Заменете стойноститеReplace Values</ReplaceValues>
     <ReportSnapshot>Докладвайте моментна снимка</ReportSnapshot>
     <RowsCount>Брой редове</RowsCount>
@@ -686,15 +718,21 @@
     <SelectAll>(Избери &amp;всички)</SelectAll>
     <ShowAllValue>Покажи (всяка) Стойност</ShowAllValue>
     <ShowAsPercentages>Показване като проценти</ShowAsPercentages>
+    <ShowBlanks>Показване на заготовки</ShowBlanks>
     <SkipFirstRows>Пропускане на първите редове</SkipFirstRows>
     <SortAZ>Сортиране А до Я</SortAZ>
     <SortLargestToSmallest>Сортитране от най-големите до най-малките</SortLargestToSmallest>
+    <SortNewestToOldest>Сортирайте най-новото към най-старото</SortNewestToOldest>
+    <SortOldestToNewest>Сортирайте най-старото към най-новото</SortOldestToNewest>
     <SortSmallestToLargest>Сортиране от най-малките до най-големите</SortSmallestToLargest>
     <SortZA>Сортиране Я до А</SortZA>
     <Sparklines>Sparklines</Sparklines>
     <StringFilters>Низови филтри</StringFilters>
     <TransformationHint>Натиснете върху заглавието на таблицата за да приложите сортиране, филтриране или промяна на данни. Тази транформация се отнася само за данни от този елемент.</TransformationHint>
     <Trend>Тренд</Trend>
+    <ViewEditCompilationNotice>Не можете да редактирате отчета, който има свойството 'Report.CalculationMode', равно на стойността 'Compilation'. Моля, задайте това свойство на стойност 'Interpretation'.</ViewEditCompilationNotice>
+    <ViewModeDesktop>Работен плот</ViewModeDesktop>
+    <ViewModeMobile>Мобилен</ViewModeMobile>
   </Dashboard>
   <Database>
     <Connection>Връзка</Connection>
@@ -722,6 +760,7 @@
     <CurrentQuarter>Текущо тримесечие</CurrentQuarter>
     <CurrentWeek>Текуща седмица</CurrentWeek>
     <CurrentYear>Текуща година</CurrentYear>
+    <DaysAgo>Преди {0} дни</DaysAgo>
     <FirstQuarter>Първо тримесечие</FirstQuarter>
     <FourthQuarter>Четвърто тримесечие</FourthQuarter>
     <Index>Индекс</Index>
@@ -782,13 +821,22 @@
     <TextNotFound>Търсеният текст не може да бъде намерен. Текст : {0}</TextNotFound>
   </DesignerFx>
   <Desktop>
+    <Beginner>Начинаещ</Beginner>
     <ButtonAddCloud>Добавете облачна папка</ButtonAddCloud>
     <ButtonAddFolder>Добавете папка</ButtonAddFolder>
     <ButtonCreateDashboard>Създайте табло за управление</ButtonCreateDashboard>
     <ButtonCreateReport>Създайте отчет</ButtonCreateReport>
+    <ChooseYourSkillLevel>Изберете нивото на уменията си</ChooseYourSkillLevel>
+    <Creator>Създател</Creator>
+    <Developer>Разработчик</Developer>
     <DoYouWantToInstallReports>Искате ли да инсталирате шаблони на отчети и табла за управление?</DoYouWantToInstallReports>
     <InstallSamplesDesc>Нека инсталираме нашите примерни проекти. Те ще ви помогнат да научите основите на работа с нашия софтуер.</InstallSamplesDesc>
+    <PleaseAnswerWhoAreYou>Моля, отговорете кой сте?</PleaseAnswerWhoAreYou>
+    <SkillLevel>Ниво на умение</SkillLevel>
     <WhoAreYou>Кой си ти?</WhoAreYou>
+    <WhoAreYouBeginnerDescription>Перфектно прилягане, ако правите първото изпълнение на дизайнера.</WhoAreYouBeginnerDescription>
+    <WhoAreYouCreatorDescription>Перфектно годни за създаване на отчети. Налична е необходимата функционалност за дизайн.</WhoAreYouCreatorDescription>
+    <WhoAreYouDeveloperDescription>Перфектно годни за създаване на приложения. Включена е пълна функционалност на компоненти за дизайн на отчета и вграждане.</WhoAreYouDeveloperDescription>
   </Desktop>
   <Dialogs>
     <StiButtonControl>Бутон</StiButtonControl>
@@ -813,6 +861,8 @@
     <StiTreeViewControl>Дърво</StiTreeViewControl>
   </Dialogs>
   <Editor>
+    <AllowSQLFormatting>Разреши SQL форматиране</AllowSQLFormatting>
+    <BetweenMetrics>Могат да бъдат избрани между 1 и 10 показателя.</BetweenMetrics>
     <CantFind>Не мога да намеря данните, удоволетворяващи условието.</CantFind>
     <CollapseToDefinitions>Връщане в дефинициите</CollapseToDefinitions>
     <Column>Колона: {0}</Column>
@@ -822,12 +872,15 @@
     <FindWhat>Намери:</FindWhat>
     <FromCursor>От курсор</FromCursor>
     <GotoLine>Премини до &amp;линия</GotoLine>
+    <InsertLink>Вмъкни линк</InsertLink>
+    <InsertSymbol>Вмъкни символ</InsertSymbol>
     <Line>Линия: {0}</Line>
     <LineNumber>Линия номер:</LineNumber>
     <LineNumberIndex>Линия номер ({0} - {1})</LineNumberIndex>
     <MarkAll>&amp;Маркирай всичко</MarkAll>
     <MatchCase>Отчитай &amp;регистър</MatchCase>
     <MatchWholeWord>Търси &amp;цялата дума</MatchWholeWord>
+    <MaximumDimensions>Могат да бъдат избрани максимум 7 размери.</MaximumDimensions>
     <Outlining>Очер&amp;таване</Outlining>
     <PromptOnReplace>Питай при заменяне</PromptOnReplace>
     <Replace>&amp;Замени</Replace>
@@ -852,6 +905,7 @@
     <ComponentIsNotRelease>Компонента не реализира "{0}".</ComponentIsNotRelease>
     <ContainerIsNotValidForComponent>Контейнер {0} е невалиден за компонента {1}.</ContainerIsNotValidForComponent>
     <DataNotFound>Няма намерени данни.</DataNotFound>
+    <DataNotLoaded>Няма заредени данни.</DataNotLoaded>
     <Error>Грешка!</Error>
     <ErrorsList>Списък грешки</ErrorsList>
     <FieldRequire>Полета "{0}" изисква въвеждане.</FieldRequire>
@@ -862,11 +916,30 @@
     <NoServices>Услугите не са намерени '{0}'</NoServices>
     <NotAssign>Източника на данни е неопределен.</NotAssign>
     <NotCorrectFormat>Въведения низ е с некоректен формат.</NotCorrectFormat>
+    <OneTableOfContentsAllowed>Само един компонент 'Съдържание' може да се използва едновременно в отчет!</OneTableOfContentsAllowed>
     <PrimaryColumnAction>Това действие не може да се приложи в основната колона на '{0}'.</PrimaryColumnAction>
     <RelationsNotFound>Релациите не са намерени.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>Поради грешки отчета не може да се съхрани!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' услугата не е намерена.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>Събирания</Assemblies>
+    <ClickIgnore>Щракнете върху 'Игнориране', за да изтриете всички автоматично запазени файлове .</ClickIgnore>
+    <Exception>Изключение</Exception>
+    <ExceptionReport>Доклад за изключение</ExceptionReport>
+    <Framework>Рамка</Framework>
+    <General>Общ</General>
+    <Message>Съобщение</Message>
+    <Number>Номер</Number>
+    <PleaseEnterDetailedInformation>Моля, въведете подробна информация за събития, които причиняват това изключение.</PleaseEnterDetailedInformation>
+    <SaveToFile>Съхрани във файл</SaveToFile>
+    <SendErrorFailed>Неуспешно доставяне на съобщението за грешка.</SendErrorFailed>
+    <SendErrorSuccess>Съобщението за грешка е доставено успешно.</SendErrorSuccess>
+    <Source>Източник</Source>
+    <StackTrace>Проследяване на стека</StackTrace>
+    <YouCanRestore>Можете да възстановите незаписани промени от архивен файл.</YouCanRestore>
+    <YourPreviousWorkSession>В предишната ви работна сесия дизайнерът прекрати неочаквано. </YourPreviousWorkSession>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>Добави прекъсване цтраница</AddPageBreaks>
     <AllBands>Всички секции</AllBands>
@@ -892,6 +965,7 @@
     <DotMatrixMode>Матричен режим</DotMatrixMode>
     <EmbeddedFonts>Вградени шрифтове</EmbeddedFonts>
     <EmbeddedImageData>Вградени графични данни</EmbeddedImageData>
+    <EnableAnimation>Разреши Анимация</EnableAnimation>
     <Encoding>Кодировка:</Encoding>
     <EncryptionError>Разкодираща греша при</EncryptionError>
     <EscapeCodes>Escape кодове</EscapeCodes>
@@ -1147,10 +1221,19 @@
     <title>Дизайнер крос-таблица</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>Токен за достъп</AccessToken>
+    <AccountKey>Акаунт ключ</AccountKey>
+    <AccountName>Акаунт име</AccountName>
+    <AuthorizationCode>Код за оторизация</AuthorizationCode>
+    <BlobContentType>Blob тип съдържание</BlobContentType>
+    <BlobName>Blob име</BlobName>
     <ClientId>Клиент Ид</ClientId>
     <ClientSecret>Клиентска тайна</ClientSecret>
     <ConnectionString>Израз за връзка:</ConnectionString>
+    <ContainerName>Име на контейнера</ContainerName>
     <DashboardConnections>Връзки на таблото</DashboardConnections>
+    <DatabaseSecret>Секрет на базата данни</DatabaseSecret>
+    <DatasetId>Id набор данни</DatasetId>
     <DB2Edit>Редакция IBM DB2 връзка</DB2Edit>
     <DB2New>Нова IBM DB2 връзка</DB2New>
     <EditConnection>Редакция {0} връзка</EditConnection>
@@ -1158,6 +1241,10 @@
     <FirebirdEdit>Редакция Firebird връзка</FirebirdEdit>
     <FirebirdNew>Нова Firebird връзка</FirebirdNew>
     <FirstRowIsHeader>Първият ред е заглавие</FirstRowIsHeader>
+    <GetAuthorizationCode>Вземете код за оторизация</GetAuthorizationCode>
+    <GetTokens>Вземете токен</GetTokens>
+    <GisEdit>Редакция GIS данни</GisEdit>
+    <GisNew>Нови GIS данни</GisNew>
     <ImportData>Импорт Данни</ImportData>
     <InformixEdit>Редакция Informix връзка</InformixEdit>
     <InformixNew>Нова Informix връзка</InformixNew>
@@ -1176,17 +1263,23 @@
     <OracleODPEdit>Редакция Oracle ODP.NET връзка</OracleODPEdit>
     <OracleODPNew>Нова Oracle ODP.NET връзка</OracleODPNew>
     <PathData>Пътека до XML данни:</PathData>
+    <PathGisData>Пътека към Gis данни:</PathGisData>
     <PathJsonData>Пътека до JSON Данни:</PathJsonData>
     <PathSchema>Пътека до XSD Схема:</PathSchema>
     <PathToData>Пътека до Данни:</PathToData>
     <Pin>Закачи</Pin>
     <PostgreSQLEdit>Редакция PostgreSQL връзка</PostgreSQLEdit>
     <PostgreSQLNew>Нова PostgreSQL връзка</PostgreSQLNew>
+    <ProjectId>Id проект</ProjectId>
     <PromptUserNameAndPassword>Питане за потрбителско име и парола</PromptUserNameAndPassword>
     <RecentConnections>Скорошни</RecentConnections>
+    <RedirectUrl>URL за пренасочване</RedirectUrl>
+    <RefreshAccessToken>Опресняване на токена за достъп</RefreshAccessToken>
+    <RefreshToken>Опресняване на токена</RefreshToken>
     <RelationDirection>Посока на релация:</RelationDirection>
     <ReportConnections>Скорошни Връзки</ReportConnections>
     <SelectData>Избери данни</SelectData>
+    <ServiceAccountKeyFile>Файл с ключ на услугата </ServiceAccountKeyFile>
     <SpreadsheetId>електронна таблица Ид</SpreadsheetId>
     <SqlCeEdit>Редакция SQLServerCE връзка</SqlCeEdit>
     <SqlCeNew>Нова SQLServerCE връзка</SqlCeNew>
@@ -1196,10 +1289,13 @@
     <SqlNew>Нова SQL връзка</SqlNew>
     <TeradataEdit>Редакция Teradata връзка</TeradataEdit>
     <TeradataNew>Нова Teradata връзка</TeradataNew>
+    <Token>Токен</Token>
     <UniDirectEdit>Редакция Uni Direct връзка</UniDirectEdit>
     <UniDirectNew>Нова Uni Direct връзка</UniDirectNew>
     <Unpin>Откачи</Unpin>
     <UseBearerAuthentication>Използвай Bearer автентикация</UseBearerAuthentication>
+    <UseOwnClientID>Използвайте собствени "Client ID" и "Client Secret"</UseOwnClientID>
+    <UseToken>Използвай токен</UseToken>
     <VistaDBEdit>Редакция VistaDB връзка</VistaDBEdit>
     <VistaDBNew>Нова VistaDB връзка</VistaDBNew>
     <XmlEdit>Редакция XML данни</XmlEdit>
@@ -1277,6 +1373,7 @@
     <ExecutedSQLStatementSuccessfully>SQL заявката е изпълнена успешно</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Нов израз</ExpressionNew>
     <GetColumnsFromAssembly>Извлечи колоните</GetColumnsFromAssembly>
+    <HideUnsupportedDatabases>Скриване на неподдържани източници на данни</HideUnsupportedDatabases>
     <ImportRelations>Импорт на релации</ImportRelations>
     <LabelSeparator>Разделител:</LabelSeparator>
     <MarkUsedItems>Маркиране на използваните елементи</MarkUsedItems>
@@ -1499,9 +1596,10 @@
     <ColorCollectionEditor>Редактор на цветова колекция</ColorCollectionEditor>
     <CreateNewComponentStyle>за да създадете новия стил на компонента</CreateNewComponentStyle>
     <CreateStyleCollection>Създай колекция от стилове</CreateStyleCollection>
+    <CreateStyleOnBase>Създайте стил, базиран на друг стил</CreateStyleOnBase>
     <CreateStylesFromColor>Създаване на стил от избран цвят</CreateStylesFromColor>
     <Duplicate>Дублирай стил</Duplicate>
-    <EditColors>[Редактиране цветове]</EditColors>
+    <EditColors>Редактиране цветове</EditColors>
     <FromStyle>От стил</FromStyle>
     <GetStyle>Извличане на стил от избрания компонент</GetStyle>
     <MoreStyles>Още Стилове</MoreStyles>
@@ -1659,10 +1757,12 @@
     <barsys_autohide_tooltip>Автоматично скриване</barsys_autohide_tooltip>
     <barsys_close_tooltip>Затвори</barsys_close_tooltip>
     <barsys_customize_tooltip>Настройка</barsys_customize_tooltip>
+    <ClickAndDragPickColor>Щракнете и плъзнете, за да изберете цвят</ClickAndDragPickColor>
     <colorpicker_morecolors>&amp;Още цветове...</colorpicker_morecolors>
     <colorpicker_nofill>&amp;Без заливка</colorpicker_nofill>
     <colorpicker_standardcolorslabel>Стандартни цветове</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>Цветови теми</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>&amp;Alpha:</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>&amp;Син:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Отказ</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>Цветове</colorpickerdialog_caption>
@@ -2200,9 +2300,17 @@
     <LinkDataForm>Свързване на Данни</LinkDataForm>
     <MapEditorForm>Редактор на Карта</MapEditorForm>
   </Map>
+  <MathFormula>
+    <Alphabets>Азбуки</Alphabets>
+    <Arrows>Стрелки</Arrows>
+    <Formulas>Формули</Formulas>
+    <Maths>Математика</Maths>
+    <Operators>Опеартори</Operators>
+  </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Времето на заявката за SQL командите надхвърля времето за изчакване на заявката на дизайнера на отчета. Задайте срока на заявката за дизайнерския компонент за не по-малко от {0} секунди.</ChangeRequestTimeout>
     <DoNotShowAgain>Не показвай отново</DoNotShowAgain>
+    <LatexFormat>Форматът LaTeX се използва за показване на математически формули.</LatexFormat>
     <MessageTimeOutExpired>Командата за изчакване е изтекла!</MessageTimeOutExpired>
     <RenderingWillOccurInTheInterpretationMode>Когато разглеждате споделения отчет, изпълнението ще се извърши в режим на интерпретация</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Ресурсът "{0}" не може да бъде изтрит, защото се използва в отчета!</ResourceCannotBeDeleted>
@@ -2222,12 +2330,16 @@
     <ActivationExpiriedBeforeFirstRelease>Вашият абонамент на Stimulsoft Reports.Ultimate изтече по-рано от публикуване на първата версия на нашия Stimulsoft Server!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>Некоректен лицензен файл! Моля, свържете се с нашия отдел продажби в sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Профилът ви е заключен. Моля, свържете се с нашия отдел продажби в sales@stimulsoft.com!</ActivationLockedAccount>
+    <ActivationLockedAccountExt>Вашият акаунт е заключен.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>Вие достигнахте максимално разрешения брой на активации. Моля, свържете се с нашия отдел продажби в sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxComputersReached>Вече сте регистрирали максималния брой компютри, налични за вашия абонамент.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server в момента не е наличен! Опитайте отново по-късно.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Вие не можете да активирате тази версия на Stimulsoft Server защото абонамента ви е изтекъл! Моля, влезте в профила си и проверите коя версия на Stimulsoft Server можете да инсталирате и активирте.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Възникна грешка при активиране. Моля, опитайте отново по-късно.</ActivationSomeTroublesOccurred>
+    <ActivationTrialExpired>Можете да продължите да използвате Stimulsoft Designer, като закупите софтуера.</ActivationTrialExpired>
     <ActivationUserNameOrPasswordIsWrong>Грешно потребителско име (Email) или парола!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Типа на профила ви не позволява да активирате Stimulsoft Server!</ActivationWrongAccountType>
+    <Alert>Внимание</Alert>
     <AuthAccountCantBeUsedNow>Профила не може да бъде използван сега!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>Профила ви не е активиран все още! Моля, следвайте инструкциите, изпратени на Email по време на регистрацията.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Ролята на потребител все още не може да се промени, тъй като това е последният потребител администратор в това работно пространство!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2249,9 +2361,12 @@
     <AuthRoleNameAlreadyExists>Ролята определена с името "{0}" вече съществува!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Ролята определена с името "{0}" е системна роля!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Съобщението с инструкции е изпратено до "{0}"!</AuthSendMessageWithInstructions>
+    <AuthTokenIsNotCorrect>Токена не е коректен!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Вие излезнахте!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>Потребителят (Email) вече се използва!</AuthUserNameAlreadyExists>
+    <AuthUserNameEmailIsBlocked>Този е-майл адрес не може да се използва!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Потребителят (Email) не е зададен!</AuthUserNameIsNotSpecified>
+    <AuthUserNameNotAssociatedWithYourAccount>Потребителско име (имейл) {0} не е свързано с вашия акаунт {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Грешно потребителско име (Email) или парола!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Потребителското име трябва да е  Email адрес!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>Работното пространство с това име вече се използва!</AuthWorkspaceNameAlreadyInUse>
@@ -2274,10 +2389,13 @@
     <ItemCantBeMovedToSpecifiedPlace>Елемента не може да бъде преместен към зададеното място!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Елемента не поддържа "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual> Key и ToKey са равни!</KeyAndToKeyAreEqual>
+    <MaximumComputers>Максимум на компютри</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Внимание! Размерът на файла, който се опитвате да добавите, надвишава максимално допустимия размер. Искате ли да добавите този файл така или иначе (обработката на отчета може да се забави значително)?</MessageMaximumFileSizeExceeded>
+    <NewDesignerAvailable>Наличен е Stimulsoft Designer {0}.</NewDesignerAvailable>
     <NewProduct>Добавен е нов продукт към вашия абонамент!</NewProduct>
     <NewVersionsAvailable>Налична е нова версия!</NewVersionsAvailable>
     <NotificationFailed>Неуспешен резултат!</NotificationFailed>
+    <NotificationFailedAddFollowingFiles>Добавянето на следните файлове не бе успешно. Надвишава се размера с {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>Файловете са качени успешно.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>Файла "{0}" се качва.</NotificationFileUploading>
     <NotificationItemDelete>Елементите се изтриват.</NotificationItemDelete>
@@ -2319,8 +2437,10 @@
     <QuotaMaximumDataRowsCountExceeded>Максималните редове от данни са превишени в един източник на данни.</QuotaMaximumDataRowsCountExceeded>
     <QuotaMaximumFileSizeExceeded>Превишен е максималният размер на файла.</QuotaMaximumFileSizeExceeded>
     <QuotaMaximumItemsCountExceeded>Превишен е максималният брой елементи.</QuotaMaximumItemsCountExceeded>
+    <QuotaMaximumRefreshCountExceeded>Максималният брой на опресняване е надвишен</QuotaMaximumRefreshCountExceeded>
     <QuotaMaximumReportPagesCountExceeded>Превишен е максиманлия брой страници на отчета.</QuotaMaximumReportPagesCountExceeded>
     <QuotaMaximumResourcesCountExceeded>Максималния брой на ресурсите е превишен.</QuotaMaximumResourcesCountExceeded>
+    <QuotaMaximumResourceSizeExceeded>Максималният размер на ресурса е надвишен.</QuotaMaximumResourceSizeExceeded>
     <QuotaMaximumUsersCountExceeded>Превишен е максимания брой потребители.</QuotaMaximumUsersCountExceeded>
     <QuotaMaximumWorkspacesCountExceeded>Превишен е максималния брой работни пространства.</QuotaMaximumWorkspacesCountExceeded>
     <SchedulerCantRunItSelf>Заданието не може да стартира себе си!</SchedulerCantRunItSelf>
@@ -2329,6 +2449,7 @@
     <SpecifiedItemIsNot>Определения елемент не е "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Вашият абонамент е изтекъл!</SubscriptionExpired>
     <SubscriptionExpiredDate>Вашият абонамент ще изтече на {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredExt>Абонаментът ви е изтекъл. Актуализирайте абонамента си, за да получите последната версия.</SubscriptionExpiredExt>
     <SubscriptionsOut10>остават 10 дни до изтичане на вашия абонамент!</SubscriptionsOut10>
     <SubscriptionsOut20>Абонаментния период изтича след 20 дни!</SubscriptionsOut20>
     <SuccessfullyRenewed>Вашият абонамент е подновен успешно!</SuccessfullyRenewed>
@@ -2343,6 +2464,8 @@
     <WithSpecifiedKeyIsNotFound>"{0}" със зададения ключ не е намерен!</WithSpecifiedKeyIsNotFound>
     <WouldYouLikeToUpdateNow>Искате ли да актуализирате сега?</WouldYouLikeToUpdateNow>
     <YourTimeSessionHasExpired>Вашата сесия е изтекла!</YourTimeSessionHasExpired>
+    <YourTrialHasExpired>Пробният ви период изтече</YourTrialHasExpired>
+    <YourTrialWillExpire>Пробният ви период ще изтече след {0} дни.</YourTrialWillExpire>
     <YouUsingTrialVersion>Вие ползвате пробна версия!</YouUsingTrialVersion>
   </Notices>
   <NuGet>
@@ -2445,19 +2568,23 @@
     <ColorsCategory>Цветове</ColorsCategory>
     <ColumnsCategory>Колони</ColumnsCategory>
     <ComboBoxCategory>Combo Box</ComboBoxCategory>
+    <CommonCategory>Общ</CommonCategory>
     <ControlCategory>Управление</ControlCategory>
     <ControlsEventsCategory>Управление на събития</ControlsEventsCategory>
     <CrossTabCategory>Крос-таблица</CrossTabCategory>
     <DashboardCategory>Табло</DashboardCategory>
     <DataCategory>Данни</DataCategory>
+    <DataCells>Клетка с данни</DataCells>
     <DatePickerCategory>Date Picker</DatePickerCategory>
     <DescriptionCategory>Описание</DescriptionCategory>
     <DesignCategory>Дизайн</DesignCategory>
     <DisplayCategory>Показване</DisplayCategory>
+    <EngineCategory>Машина</EngineCategory>
     <ExportCategory>Експорт</ExportCategory>
     <ExportEventsCategory>Експорт събития</ExportEventsCategory>
     <FooterTableCategory>Край на Таблица</FooterTableCategory>
     <GaugeCategory>Gauge</GaugeCategory>
+    <GlobalizationCategory>Глабализация</GlobalizationCategory>
     <GridLinesCategory>Мрежови линии</GridLinesCategory>
     <HeaderTableCategory>Заглавие на Таблица</HeaderTableCategory>
     <HierarchicalCategory>Йерархичен</HierarchicalCategory>
@@ -2494,6 +2621,7 @@
     <Size>Размер</Size>
     <SubReportCategory>Под-справка</SubReportCategory>
     <TableCategory>Таблица</TableCategory>
+    <TableOfContents>Съдържание</TableOfContents>
     <TextAdditionalCategory>Текст, още</TextAdditionalCategory>
     <TextCategory>Текст</TextCategory>
     <TitleCategory>Заглавие</TitleCategory>
@@ -2507,6 +2635,7 @@
     <ValueHighCategory>Висока стойност</ValueHighCategory>
     <ValueLowCategory>Ниска стойност</ValueLowCategory>
     <ValueOpenCategory>Текуща стойност</ValueOpenCategory>
+    <ViewCategory>Преглед</ViewCategory>
     <WeightCategory>Тежина</WeightCategory>
     <WinControlCategory>Win контрол</WinControlCategory>
     <ZipCodeCategory>Пощенски код</ZipCodeCategory>
@@ -2783,6 +2912,10 @@
     <StiChartTitleDockLeft>Отлявао</StiChartTitleDockLeft>
     <StiChartTitleDockRight>Отдясно</StiChartTitleDockRight>
     <StiChartTitleDockTop>Отгоре</StiChartTitleDockTop>
+    <StiChartTrendLineTypeExponential>Експоненциално</StiChartTrendLineTypeExponential>
+    <StiChartTrendLineTypeLinear>Линейно</StiChartTrendLineTypeLinear>
+    <StiChartTrendLineTypeLogarithmic>Логаритмично</StiChartTrendLineTypeLogarithmic>
+    <StiChartTrendLineTypeNone>Нито един</StiChartTrendLineTypeNone>
     <StiCheckStyleCheck>Квадратче</StiCheckStyleCheck>
     <StiCheckStyleCheckRectangle>Правоъгълник с квадратче</StiCheckStyleCheckRectangle>
     <StiCheckStyleCross>Кръст</StiCheckStyleCross>
@@ -2807,6 +2940,11 @@
     <StiCrossHorAlignmentLeft>Отляво</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Няма</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Отдясно</StiCrossHorAlignmentRight>
+    <StiDashboardContentAlignmentCenter>Център</StiDashboardContentAlignmentCenter>
+    <StiDashboardContentAlignmentLeft>Ляво</StiDashboardContentAlignmentLeft>
+    <StiDashboardContentAlignmentRight>Дясно</StiDashboardContentAlignmentRight>
+    <StiDashboardContentAlignmentStretchX>Разтягане по X</StiDashboardContentAlignmentStretchX>
+    <StiDashboardContentAlignmentStretchXY>Разтягане по XY</StiDashboardContentAlignmentStretchXY>
     <StiDateSelectionModeAutoRange>Автоматичен обхват</StiDateSelectionModeAutoRange>
     <StiDateSelectionModeRange>Обхват</StiDateSelectionModeRange>
     <StiDateSelectionModeSingle>Единичен</StiDateSelectionModeSingle>
@@ -2816,6 +2954,7 @@
     <StiDesignerScaleModeAutomaticScaling>Автоматично мащабиране</StiDesignerScaleModeAutomaticScaling>
     <StiDesignerScaleModeScaling100>100% Мащаб</StiDesignerScaleModeScaling100>
     <StiDesignerSpecificationAuto>Определи автоматично</StiDesignerSpecificationAuto>
+    <StiDesignerSpecificationBeginner>Аз съм начинаещ</StiDesignerSpecificationBeginner>
     <StiDesignerSpecificationBICreator>Аз съм Създател</StiDesignerSpecificationBICreator>
     <StiDesignerSpecificationDeveloper>Аз съм разработчик</StiDesignerSpecificationDeveloper>
     <StiDisplayNameTypeFull>Пълен</StiDisplayNameTypeFull>
@@ -2832,6 +2971,9 @@
     <StiEanSupplementTypeFiveDigit>Петцифрен</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Няма</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Двуцифрен</StiEanSupplementTypeTwoDigit>
+    <StiEmptyCellsAsConnectPointsWithLine>Свържете точките с линия</StiEmptyCellsAsConnectPointsWithLine>
+    <StiEmptyCellsAsGap>Промежгутък</StiEmptyCellsAsGap>
+    <StiEmptyCellsAsZero>Нула</StiEmptyCellsAsZero>
     <StiEmptySizeModeAlignFooterToBottom>Подравни долния колонтитул отдолу</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>Подравни долния колонтитул отгоре</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>Намаляне на последния ред</StiEmptySizeModeDecreaseLastRow>
@@ -2886,6 +3028,9 @@
     <StiFontIconGroupTransportationIcons>Транспортиране</StiFontIconGroupTransportationIcons>
     <StiFontIconGroupVideoPlayerIcons>Видео</StiFontIconGroupVideoPlayerIcons>
     <StiFontIconGroupWebApplicationIcons>Приложение</StiFontIconGroupWebApplicationIcons>
+    <StiFontSizeModeAuto>Авто</StiFontSizeModeAuto>
+    <StiFontSizeModeTarget>Цел</StiFontSizeModeTarget>
+    <StiFontSizeModeValue>Стойност</StiFontSizeModeValue>
     <StiFormStartModeOnEnd>В края</StiFormStartModeOnEnd>
     <StiFormStartModeOnPreview>В преглед</StiFormStartModeOnPreview>
     <StiFormStartModeOnStart>В началото</StiFormStartModeOnStart>
@@ -2895,8 +3040,10 @@
     <StiGaugeRangeModeValue>Стойност</StiGaugeRangeModeValue>
     <StiGaugeRangeTypeColor>Цвят</StiGaugeRangeTypeColor>
     <StiGaugeRangeTypeNone>Нито един</StiGaugeRangeTypeNone>
+    <StiGaugeTypeBullet>Куршум</StiGaugeTypeBullet>
     <StiGaugeTypeFullCircular>Пълен кръгов</StiGaugeTypeFullCircular>
     <StiGaugeTypeHalfCircular>Полу-кръгов</StiGaugeTypeHalfCircular>
+    <StiGaugeTypeHorizontalLinear>Хоризонтална линейна</StiGaugeTypeHorizontalLinear>
     <StiGaugeTypeLinear>Линеен</StiGaugeTypeLinear>
     <StiGroupSortDirectionAscending>Нарастващ</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Намаляващ</StiGroupSortDirectionDescending>
@@ -2996,6 +3143,15 @@
     <StiNestedFactorNormal>Нормалноl</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Два прехода</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Един преход</StiNumberOfPassSinglePass>
+    <StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>Черен аква бял</StiOnlineMapHeatmapColorGradientTypeBlackAquaWhite>
+    <StiOnlineMapHeatmapColorGradientTypeBlueRed>Синьо червено</StiOnlineMapHeatmapColorGradientTypeBlueRed>
+    <StiOnlineMapHeatmapColorGradientTypeColorSpectrum>Цветови спектър</StiOnlineMapHeatmapColorGradientTypeColorSpectrum>
+    <StiOnlineMapHeatmapColorGradientTypeDeepSea>Дълбоко море</StiOnlineMapHeatmapColorGradientTypeDeepSea>
+    <StiOnlineMapHeatmapColorGradientTypeHeatedMetal>Нагрят метал</StiOnlineMapHeatmapColorGradientTypeHeatedMetal>
+    <StiOnlineMapHeatmapColorGradientTypeIncandescent>Нажежаема жичка</StiOnlineMapHeatmapColorGradientTypeIncandescent>
+    <StiOnlineMapHeatmapColorGradientTypeSteppedColors>Стъпаловидни цветове</StiOnlineMapHeatmapColorGradientTypeSteppedColors>
+    <StiOnlineMapHeatmapColorGradientTypeSunrise>Изгрев</StiOnlineMapHeatmapColorGradientTypeSunrise>
+    <StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>Видим спектър</StiOnlineMapHeatmapColorGradientTypeVisibleSpectrum>
     <StiOnlineMapLocationTypeAdminDivision1>Админ отдел1</StiOnlineMapLocationTypeAdminDivision1>
     <StiOnlineMapLocationTypeAdminDivision2>Админ отдел2</StiOnlineMapLocationTypeAdminDivision2>
     <StiOnlineMapLocationTypeAuto>Автоматично</StiOnlineMapLocationTypeAuto>
@@ -3143,6 +3299,8 @@
     <StiTableAutoWidthTypeFullTable>Цяла таблица</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Последни Колони</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Няма</StiTableAutoWidthTypeNone>
+    <StiTargetModePercentage>Процент</StiTargetModePercentage>
+    <StiTargetModeVariation>Вариация</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Центрирано</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Ляво</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Дясно</StiTextHorAlignmentRight>
@@ -3317,6 +3475,7 @@
     <AllowApplyBrush>Разреши прилагане четка</AllowApplyBrush>
     <AllowApplyBrushNegative>Разреши Четка Негатив</AllowApplyBrushNegative>
     <AllowApplyColorNegative>Разреши Цвят Негатив</AllowApplyColorNegative>
+    <AllowApplyLineColor>Позволете прилагане на цвета на линията</AllowApplyLineColor>
     <AllowApplyStyle>Разреши прилагане стил</AllowApplyStyle>
     <AllowExpressions>Разреши Изрази</AllowExpressions>
     <AllowHtmlTags>Разреши Html </AllowHtmlTags>
@@ -3345,6 +3504,7 @@
     <AlternatingCellForeColor>Черен цвят на предните редове</AlternatingCellForeColor>
     <AlternatingDataColor>Редуващи се цветове на данните</AlternatingDataColor>
     <AlternatingDataForeground>Редуващи се данни на преден план</AlternatingDataForeground>
+    <Always>Винаги</Always>
     <Anchor>Котва</Anchor>
     <Angle>Ъгъл</Angle>
     <Antialiasing>Прозрачност</Antialiasing>
@@ -3400,6 +3560,8 @@
     <Brush>Четка</Brush>
     <BrushNegative>Четка Негатив</BrushNegative>
     <BrushType>Тип четка</BrushType>
+    <BubbleBackColor>Цвят на основата на балончета</BubbleBackColor>
+    <BubbleBorderColor>Цвят на границата на балончета</BubbleBorderColor>
     <BusinessObject>Бизнес обект</BusinessObject>
     <CacheAllData>Кеширай всички данни</CacheAllData>
     <CacheTotals>Кеширане на сумите</CacheTotals>
@@ -3473,16 +3635,19 @@
     <ConnectOnStart>Свързване при стартиране</ConnectOnStart>
     <ConstantLines>Константни линии</ConstantLines>
     <Container>Контейнер</Container>
+    <ContentAlignment>Подравняване на съдържанието</ContentAlignment>
     <ContinuousText>Непрекъснат текст</ContinuousText>
     <ContourColor>Цвят на контура</ContourColor>
     <Converting>Конвертиране</Converting>
     <ConvertNulls>Конвертиране на Nulls</ConvertNulls>
     <Copies>Копия</Copies>
+    <CornerRadius>Радиус на ъгъла</CornerRadius>
     <Count>Брой</Count>
     <CountData>Брой елементи</CountData>
     <Create>Създай</Create>
     <CreateFieldOnDoubleClick>Създаване на поле при двойно щракване</CreateFieldOnDoubleClick>
     <CreateLabel>Създаване етикет</CreateLabel>
+    <CrossFiltering>Кръстосано филтриране</CrossFiltering>
     <Culture>Култура</Culture>
     <CustomFonts>Персонален шрифт</CustomFonts>
     <CustomFormat>Формат по избор</CustomFormat>
@@ -3516,6 +3681,7 @@
     <Description>Описание</Description>
     <Destination>Девстинация</Destination>
     <DetectUrls>Откриване на хипер-връзки</DetectUrls>
+    <DeviceWidth>Ширина на устройството</DeviceWidth>
     <DialogResult>Резултат от диалога</DialogResult>
     <Diameter>Диаметър</Diameter>
     <Direction>Направление</Direction>
@@ -3595,6 +3761,7 @@
     <FontItalic>Курсивен</FontItalic>
     <FontName>Име</FontName>
     <FontSize>Размер</FontSize>
+    <FontSizeMode>Режим за размер на шрифта</FontSizeMode>
     <FontStrikeout>Зачеркване</FontStrikeout>
     <FontSubscript>Долен текст</FontSubscript>
     <FontSuperscript>Горен текст</FontSuperscript>
@@ -3617,6 +3784,7 @@
     <ForeColor>Цвят текст</ForeColor>
     <Format>Формат</Format>
     <From>От</From>
+    <FrozenColumns>Замразени колони</FrozenColumns>
     <FullConvertExpression>Пълно конжертиране на израз</FullConvertExpression>
     <Function>Функция</Function>
     <Functions>Функции</Functions>
@@ -3652,7 +3820,10 @@
     <HeaderRowsCount>Брояч редове</HeaderRowsCount>
     <Headers>Заглавия</Headers>
     <HeaderText>Текст заглавие</HeaderText>
+    <Heading>Заглавие</Heading>
+    <Heatmap>Топлина карта</Heatmap>
     <HeatmapColors>Цветове Heatmap</HeatmapColors>
+    <HeatmapWithGroup>Топлинна карта с група </HeatmapWithGroup>
     <Height>Височина</Height>
     <HideSeriesWithEmptyTitle>Скриване на серии с празни заглавия</HideSeriesWithEmptyTitle>
     <HideZeros>Скрий нули</HideZeros>
@@ -3674,8 +3845,10 @@
     <HtmlTags>Html тагове</HtmlTags>
     <Hyperlink>Хиперлинк</Hyperlink>
     <HyperlinkDataColumn>Колона данни хипер-връзка</HyperlinkDataColumn>
+    <HyperlinkPattern>Модел на хипервръзка</HyperlinkPattern>
     <Icon>Икона</Icon>
     <IconAlignment>Подравняване на иконите</IconAlignment>
+    <IconColor>Цвят на икона</IconColor>
     <IconSet>Множесто икони</IconSet>
     <IconSetCondition>Условие за множество икони</IconSetCondition>
     <Idents>Идентификатори</Idents>
@@ -3698,6 +3871,7 @@
     <InfographicsTitle>Заглавие</InfographicsTitle>
     <InitBy>Инициализирано от</InitBy>
     <InitialSelection>Първоначално избиране</InitialSelection>
+    <InitialSelectionSource>Първоначален източник за избор</InitialSelectionSource>
     <Insert>Вмъкни</Insert>
     <Interaction>Взаимодействие</Interaction>
     <InterlacedBrush>Четка преплитане</InterlacedBrush>
@@ -3739,6 +3913,7 @@
     <Language>Език</Language>
     <LargeHeight>Голяма височина</LargeHeight>
     <LargeHeightFactor>Фактор голяма височина</LargeHeightFactor>
+    <LaTexExpression>LaTex израз</LaTexExpression>
     <Latitude>Географска ширина</Latitude>
     <Layout>Оформление</Layout>
     <Left>Ляво</Left>
@@ -3860,6 +4035,7 @@
     <NewPageAfter>Нова страница след</NewPageAfter>
     <NewPageBefore>Нова страница преди</NewPageBefore>
     <NextPage>Следваща страница</NextPage>
+    <NoElements>Без елементи</NoElements>
     <NoIcon>Без икона</NoIcon>
     <NullText>Null текст</NullText>
     <NumberOfColumns>Брой на колоните</NumberOfColumns>
@@ -3888,10 +4064,12 @@
     <PaperSourceOfOtherPages>Източник хартия за следващи страници</PaperSourceOfOtherPages>
     <Parameter>Параметър</Parameter>
     <Parameters>Параметри</Parameters>
+    <ParametersDateFormat>Параметри Формат на дата</ParametersDateFormat>
     <ParametersOrientation>Параметри на ориентация</ParametersOrientation>
     <ParentColumns>Главни колони</ParentColumns>
     <ParentSource>Главен източник данни</ParentSource>
     <ParentValue>Главна стойност</ParentValue>
+    <ParetoSeriesColors>Цветове от серията Pareto</ParetoSeriesColors>
     <PasswordChar>Символ парола</PasswordChar>
     <Path>Пътека</Path>
     <PathData>Пътека Данни</PathData>
@@ -3927,6 +4105,8 @@
     <ProcessingDuplicates>Обработка на дублиращи</ProcessingDuplicates>
     <ProcessTilde>Тилда</ProcessTilde>
     <ProductHomePage>Начална страница на продукта</ProductHomePage>
+    <Property>Свойство</Property>
+    <Provider>Доставчик</Provider>
     <RadarStyle>Стил радар</RadarStyle>
     <RadialBarBorderBrush>Четка с радиална лента</RadialBarBorderBrush>
     <RadialBarBrush>Четка за радиална лента</RadialBarBrush>
@@ -3982,6 +4162,7 @@
     <RightToLeft>От дясано на ляво</RightToLeft>
     <Rotation>Ротация</Rotation>
     <RotationLabels>Етикет ротация</RotationLabels>
+    <RotationMode>Режим на въртене</RotationMode>
     <Round>Закръгленост</Round>
     <RoundValues>Закръглени стойности</RoundValues>
     <RowCount>Брой редове</RowCount>
@@ -4035,15 +4216,19 @@
     <ShortValue>Кратка стойност</ShortValue>
     <ShowAllValue>Покажи всяка стойност</ShowAllValue>
     <ShowBehind>Показване отзад</ShowBehind>
+    <ShowBubble>Покажи балон</ShowBubble>
     <ShowDialog>Показване на диалог</ShowDialog>
     <ShowEdgeValues>Показване на крайни стойности</ShowEdgeValues>
+    <ShowHyperlink>Покажи хипервръзка</ShowHyperlink>
     <ShowImageBehind>Показване на картинка отзад</ShowImageBehind>
     <ShowInLegend>Показване в легенда</ShowInLegend>
+    <ShowInnerPoints>Показване на вътрешни точки</ShowInnerPoints>
     <ShowInPercent>Показване в процент</ShowInPercent>
     <ShowLabels>Показване на етикети</ShowLabels>
     <ShowLabelText>Показване текст на етикет</ShowLabelText>
     <ShowLegend>Показване Леганда</ShowLegend>
     <ShowMarker>Показване на маркер</ShowMarker>
+    <ShowMeanMarkers>Показване на средни маркери</ShowMeanMarkers>
     <ShowNulls>Покажи Nulls</ShowNulls>
     <ShowOnZeroValues>Показване при нулева стойност</ShowOnZeroValues>
     <ShowOthers>Покажи други</ShowOthers>
@@ -4083,6 +4268,7 @@
     <SortingEnabled>Сортирането е разрешено</SortingEnabled>
     <SortType>Тип на сортиране</SortType>
     <Space>Разредка</Space>
+    <SpaceRatio>Space Ratio</SpaceRatio>
     <Spacing>Разстояние</Spacing>
     <SqlCommand>Sql команда</SqlCommand>
     <StartAngle>Начален ъгъл</StartAngle>
@@ -4114,6 +4300,7 @@
     <SubReportPage>Страница под-отчет</SubReportPage>
     <Summaries>Сумарно</Summaries>
     <Summary>Сумарно</Summary>
+    <SummaryAlignment>Резюме Изравняване</SummaryAlignment>
     <SummaryExpression>Сумиращ израз</SummaryExpression>
     <SummarySortDirection>Сумиращо направление сортиране</SummarySortDirection>
     <SummaryType>Сумиращ тип</SummaryType>
@@ -4130,6 +4317,7 @@
     <TagValue>Белязана стойност</TagValue>
     <Target>Цел</Target>
     <TargetIcon>Целева икона</TargetIcon>
+    <TargetMode>Целеви режим</TargetMode>
     <Tension>Напрегнатост</Tension>
     <Text>Текст</Text>
     <TextAfter>Текст след</TextAfter>
@@ -4169,11 +4357,13 @@
     <TopN>Първите N</TopN>
     <TopSide>Горна страна</TopSide>
     <Total>Общо</Total>
+    <TotalLabel>Етикет Общо</TotalLabel>
     <Totals>Сбор</Totals>
     <TrackColor>Цвят на проследяване</TrackColor>
     <TransparentColor>Прозрачен цвят</TransparentColor>
     <TrendLine>Насочваща линия</TrendLine>
     <TrendLineColor>Цвят</TrendLineColor>
+    <TrendLines>Линиии на тренда</TrendLines>
     <TrendLineShowShadow>Покажи сянка</TrendLineShowShadow>
     <TrimExcessData>Премахване на излишните данни</TrimExcessData>
     <Trimming>Изчистване</Trimming>
@@ -4186,6 +4376,7 @@
     <UnlimitedBreakable>Unlimited Breakable</UnlimitedBreakable>
     <UnlimitedHeight>Неограничена височина</UnlimitedHeight>
     <UnlimitedWidth>Неограничена ширина</UnlimitedWidth>
+    <UpperMarks>Горни маркери</UpperMarks>
     <UseAliases>Използване на псевдоними</UseAliases>
     <UseExternalReport>Използване на външен отчет</UseExternalReport>
     <UseParentStyles>Използване на родителските стилове</UseParentStyles>
@@ -4220,6 +4411,7 @@
     <VertSpacing>Вертикално разстояние</VertSpacing>
     <ViewMode>Режим на преглед</ViewMode>
     <Visible>Видим</Visible>
+    <VisualStates>Визуални състояния</VisualStates>
     <Watermark>Воден знак</Watermark>
     <Weight>Тегло</Weight>
     <WeightDataColumn>Колона данни тегло</WeightDataColumn>
@@ -4233,6 +4425,7 @@
     <XTopAxis>Ос X горна</XTopAxis>
     <YAxis>Ос Y</YAxis>
     <YRightAxis>Ос Y дясана</YRightAxis>
+    <ZeroColor>Нулев цвят</ZeroColor>
     <Zoom>Мащаб</Zoom>
   </PropertyMain>
   <PropertySystemColors>
@@ -4371,7 +4564,7 @@
     <CrossBands>Крос</CrossBands>
     <Dashboard>Табло</Dashboard>
     <Dialogs>Диалози</Dialogs>
-    <EditStyles>[Редакция на стилове]</EditStyles>
+    <EditStyles>Редакция на стилове</EditStyles>
     <Enhancements>Подобрения</Enhancements>
     <Errors>Грешки</Errors>
     <EventsTab>Събития</EventsTab>
@@ -4413,6 +4606,7 @@
     <LabelPixels>Пиксели:</LabelPixels>
     <LabelQueryTimeout>Таймаут на запитване:</LabelQueryTimeout>
     <LabelSystemVariable>Системна променлива:</LabelSystemVariable>
+    <LabelTableOfContentsHint>Моля, проверете компонентите, които трябва да съставят съдържанието. Един компонент е равен на едно ниво на заглавието.</LabelTableOfContentsHint>
     <LabelTotals>Сумарно</LabelTotals>
     <LabelType>Тип:</LabelType>
     <LabelUserName>Потребителско име:</LabelUserName>
@@ -4458,6 +4652,11 @@
     <StyleNormal>Нормален</StyleNormal>
     <StyleNote>Бележка</StyleNote>
     <StyleWarning>Предупреждение</StyleWarning>
+    <VisualChecked>Маркиран</VisualChecked>
+    <VisualDefault>По подразбиране</VisualDefault>
+    <VisualDisabled>Забранен</VisualDisabled>
+    <VisualHovered>Задържан</VisualHovered>
+    <VisualPressed>Натиснат</VisualPressed>
     <Warnings>Предупреждения</Warnings>
     <WhatsNewInVersion>Какво ново в {0}</WhatsNewInVersion>
     <When>когато {0} {1}</When>
@@ -4673,6 +4872,7 @@
     <DefaultThemes>Тема по подразбиране</DefaultThemes>
     <Filters>Филтри</Filters>
     <FromReportTemplate>От шаблон на отчет</FromReportTemplate>
+    <GetData>Вземи данни</GetData>
     <groupCreateNewDashboard>Създаване на ново табло</groupCreateNewDashboard>
     <groupCreateNewPageOrForm>Създаване на нова страница или форма</groupCreateNewPageOrForm>
     <groupCreateNewReport>Създаване на нов отчет</groupCreateNewReport>
@@ -4719,6 +4919,7 @@
     <Preview>Преглед</Preview>
     <Reset>&amp;Изходно</Reset>
     <Results>Резултати</Results>
+    <RunWizard>Стартирайте Wizard</RunWizard>
     <SelectColumns>Изберете колони</SelectColumns>
     <SelectTemplate>Шаблон</SelectTemplate>
     <Sort>Сортиране</Sort>
@@ -4726,6 +4927,7 @@
     <Themes>Теми</Themes>
     <title>Нов отчет</title>
     <Totals>Суми</Totals>
+    <UseDemoData>Използвайте демонстрационни данни</UseDemoData>
     <UsingReportWizard>Използване на съветника на отчета</UsingReportWizard>
     <YouHaveNotOpenedAnyReportRecently>Наскоро не сте отворили нито един отчет. За да прегледате отчет, започнете с щракване върху Отваряне на съществуващ файл.</YouHaveNotOpenedAnyReportRecently>
   </Wizards>

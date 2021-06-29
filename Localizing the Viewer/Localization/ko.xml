@@ -149,11 +149,13 @@
     <AddFilter>필터 추가(&amp;A)</AddFilter>
     <AddSeries>시리즈를 추가(&amp;A)</AddSeries>
     <AddStrip>스트립을 추가</AddStrip>
+    <AddTrendLine>추세 라인 추가</AddTrendLine>
     <Area>영역</Area>
     <Axes>축</Axes>
     <AxisReverse>역</AxisReverse>
     <AxisX>축 X</AxisX>
     <AxisY>축 Y</AxisY>
+    <BoxAndWhisker>봉차트</BoxAndWhisker>
     <Bubble>버블</Bubble>
     <Candlestick>캔들</Candlestick>
     <ChartConditionsCollectionForm>조건</ChartConditionsCollectionForm>
@@ -350,6 +352,7 @@
   </ChartRibbon>
   <Cloud>
     <AcceptTermsAndPrivacyPolicy>나는 {0}의 {1}을 읽고 동의합니다.</AcceptTermsAndPrivacyPolicy>
+    <Account>계정</Account>
     <AccountSettings>계정 설정</AccountSettings>
     <AddAPlace>위치 추가</AddAPlace>
     <AreYouSureYouWantDeleteReport>디스크에서 "{0}" 보고서를 삭제하시겠습니까?</AreYouSureYouWantDeleteReport>
@@ -383,6 +386,7 @@
     <Create>만들기</Create>
     <CreateError>보고서 작성 중 오류가 발생했습니다.</CreateError>
     <CreateNewCollection>새 컬렉션을 생성</CreateNewCollection>
+    <CreateYourTeam>팀 만들기</CreateYourTeam>
     <CreatingReport>보고서 작성 중...</CreatingReport>
     <DashboardWindowTitleNew>새로운 대시보드</DashboardWindowTitleNew>
     <DeleteFile>파일을 삭제하는</DeleteFile>
@@ -401,6 +405,8 @@
     <HyperlinkHavePassword>비밀번호를 잊어</HyperlinkHavePassword>
     <HyperlinkRegisterAccount>무료 계정을 등록</HyperlinkRegisterAccount>
     <InstallSamples>샘플 설치</InstallSamples>
+    <Invitations>Invitations</Invitations>
+    <Invite>초대하기</Invite>
     <LabelAddCloudFolder>Stimulsoft Cloud 폴더를 보고서 및 대시보드와 연결하십시오.</LabelAddCloudFolder>
     <LabelAddFolder>보고서 및 대시보드가 있는 로컬 폴더를 추가하십시오.</LabelAddFolder>
     <labelCollectionName>컬렉션 이름 :</labelCollectionName>
@@ -416,6 +422,7 @@
     <LabelForeground>전경</LabelForeground>
     <LabelFromReport>보고서</LabelFromReport>
     <LabelFromReportCode>보고서 (코드에서 정의 됨)</LabelFromReportCode>
+    <LabelInviteUser>팀에 새 사용자를 초대합니다. 초대장을 이메일로 보냅니다.</LabelInviteUser>
     <LabelLastLogin>마지막 로그인 :</LabelLastLogin>
     <LabelLastTime>이전 :</LabelLastTime>
     <LabelModified>변경된 :</LabelModified>
@@ -429,11 +436,13 @@
     <LabelResultType>결과 유형 :</LabelResultType>
     <LabelSeparateReport>별도의 보고서 (및 스크립트) 파일</LabelSeparateReport>
     <LabelShowReport>보고서보기 :</LabelShowReport>
+    <LabelStartDate>시작일:</LabelStartDate>
     <labelUserName>사용자 이름 :</labelUserName>
     <License>라이센스</License>
     <LicenseInformation>라이센스 정보</LicenseInformation>
     <LicenseKey>라이센스키</LicenseKey>
     <Login>로그인</Login>
+    <MyTeam>내 팀</MyTeam>
     <NofM>{0} : {2}의 {1}</NofM>
     <Open>열기</Open>
     <OpenFile>열기</OpenFile>
@@ -478,6 +487,7 @@
     <TabItemEmbedCode>소스 코드</TabItemEmbedCode>
     <TabItemQRCode>QR 코드</TabItemQRCode>
     <TabItemShare>공유 링크</TabItemShare>
+    <Team>팀</Team>
     <TermsOfUse>조항</TermsOfUse>
     <TextActivated>활성화</TextActivated>
     <TextActivationDate>활성화 날짜</TextActivationDate>
@@ -563,6 +573,7 @@
   </Cloud>
   <Components>
     <StiBarCode>바코드</StiBarCode>
+    <StiButton>버튼</StiButton>
     <StiChart>차트</StiChart>
     <StiCheckBox>체크박스</StiCheckBox>
     <StiChildBand>자식</StiChildBand>
@@ -601,6 +612,7 @@
     <StiIndicator>표시</StiIndicator>
     <StiListBox>목록 상자</StiListBox>
     <StiMap>지도</StiMap>
+    <StiMathFormula>수학 공식</StiMathFormula>
     <StiOnlineMap>온라인지도</StiOnlineMap>
     <StiOverlayBand>오버레이</StiOverlayBand>
     <StiPage>페이지</StiPage>
@@ -620,9 +632,11 @@
     <StiRichText>서식있는 텍스트</StiRichText>
     <StiRoundedRectanglePrimitive>둥근 직사각형</StiRoundedRectanglePrimitive>
     <StiShape>모양</StiShape>
+    <StiSparkline>스파크라인</StiSparkline>
     <StiSubReport>하위 보고서</StiSubReport>
     <StiSystemText>시스템 텍스트</StiSystemText>
     <StiTable>테이블</StiTable>
+    <StiTableOfContents>목차</StiTableOfContents>
     <StiText>텍스트</StiText>
     <StiTextInCells>셀의 텍스트</StiTextInCells>
     <StiTreeView>트리보기</StiTreeView>
@@ -634,9 +648,11 @@
   <Dashboard>
     <AddRange>범위 추가</AddRange>
     <AfterGroupingData>데이터를 그룹화 한 후 적용</AfterGroupingData>
+    <AllowUserColumnSelection>사용자 열 선택 허용</AllowUserColumnSelection>
     <AllowUserDrillDown>사용자 드릴다운허용</AllowUserDrillDown>
     <AllowUserFiltering>사용자 필터허용</AllowUserFiltering>
     <AllowUserSorting>사용자 정렬허용</AllowUserSorting>
+    <Blank>(공백)</Blank>
     <Blanks>(공백)</Blanks>
     <BooleanFilters>부울 필터</BooleanFilters>
     <CannotLoadDashboard>대시보드 보고서를로드 할 수 없습니다.</CannotLoadDashboard>
@@ -647,6 +663,7 @@
     <ColorScale>컬러 스케일</ColorScale>
     <ColumnInteractions>컬럼 상호작용</ColumnInteractions>
     <CustomFilter>사용자 &amp; 필터...</CustomFilter>
+    <DashboardsNotSupportedIntheWPFDesigner>WPF Designer에서는 대시 보드가 지원되지 않습니다.</DashboardsNotSupportedIntheWPFDesigner>
     <DataBars>데이터 바</DataBars>
     <DataFilterGrouping>이 작업은 다른 열을 그룹화하는 데만 사용됩니다.</DataFilterGrouping>
     <DataNotDefined>데이터가 정의되어 있지 않습니다</DataNotDefined>
@@ -676,6 +693,7 @@
     <LimitRows>줄을 건너 뛰고 제한</LimitRows>
     <Measure>측정</Measure>
     <Measures>조치</Measures>
+    <Metrics>메트릭스</Metrics>
     <NewDimension>새로운 차원</NewDimension>
     <NewField>새로운 필드</NewField>
     <NewMeasure>새로운 척도</NewMeasure>
@@ -699,6 +717,7 @@
     <SelectAll>(모두 선택)</SelectAll>
     <ShowAllValue>모든값 표시</ShowAllValue>
     <ShowAsPercentages>백분율로 표시</ShowAsPercentages>
+    <ShowBlanks>빈값 표시</ShowBlanks>
     <SkipFirstRows>첫 행 건너 뛰기</SkipFirstRows>
     <SortAZ>Z를 Z로 정렬</SortAZ>
     <SortLargestToSmallest>최소에서 최소로 정렬</SortLargestToSmallest>
@@ -740,6 +759,7 @@
     <CurrentQuarter>현재 분기</CurrentQuarter>
     <CurrentWeek>이번</CurrentWeek>
     <CurrentYear>올해</CurrentYear>
+    <DaysAgo>{0}일 전</DaysAgo>
     <FirstQuarter>1 분기</FirstQuarter>
     <FourthQuarter>4 분기</FourthQuarter>
     <Index>인덱스</Index>
@@ -805,11 +825,13 @@
     <ButtonAddFolder>폴더 추가</ButtonAddFolder>
     <ButtonCreateDashboard>대시보드 생성</ButtonCreateDashboard>
     <ButtonCreateReport>리포트 생성</ButtonCreateReport>
+    <ChooseYourSkillLevel>작업 수준을 선택하세요</ChooseYourSkillLevel>
     <Creator>생성자</Creator>
     <Developer>개발자</Developer>
     <DoYouWantToInstallReports>보고서 및 대시보드 템플릿을 설치 하시겠습니까?</DoYouWantToInstallReports>
     <InstallSamplesDesc>샘플 프로젝트를 설치합니다. 소프트웨어 작업의 기본 사항을 배우는데 도움이됩니다.</InstallSamplesDesc>
     <PleaseAnswerWhoAreYou>당신이 누구신지 대답하십시오?</PleaseAnswerWhoAreYou>
+    <SkillLevel>기술 수준</SkillLevel>
     <WhoAreYou>당신은 누구십니까?</WhoAreYou>
     <WhoAreYouBeginnerDescription>디자이너를 처음 실행하는 경우에 적합합니다.</WhoAreYouBeginnerDescription>
     <WhoAreYouCreatorDescription>보고서 작성에 적합합니다. 디자인에 필요한 기능을 사용할 수 있습니다.</WhoAreYouCreatorDescription>
@@ -838,6 +860,8 @@
     <StiTreeViewControl>트리보기</StiTreeViewControl>
   </Dialogs>
   <Editor>
+    <AllowSQLFormatting>SQL 포맷 허용</AllowSQLFormatting>
+    <BetweenMetrics>1에서 10 사이의 메트릭스를 선택할 수 있습니다.</BetweenMetrics>
     <CantFind>당신이 찾고있는 데이터를 찾을 수 없습니다.</CantFind>
     <CollapseToDefinitions>정의부분만 보이기</CollapseToDefinitions>
     <Column>열 : {0}</Column>
@@ -855,6 +879,7 @@
     <MarkAll>모두 표시(&amp;M)</MarkAll>
     <MatchCase>대소문자 구분(&amp;C)</MatchCase>
     <MatchWholeWord>단어 완전 일치(&amp;W)</MatchWholeWord>
+    <MaximumDimensions>최대 7차원을 선택할 수 있습니다.</MaximumDimensions>
     <Outlining>개요(&amp;l)</Outlining>
     <PromptOnReplace>대체 프롬프트</PromptOnReplace>
     <Replace>대체(&amp;R)</Replace>
@@ -890,11 +915,30 @@
     <NoServices>서비스는 '{0}'에서 찾을 수 없습니다</NoServices>
     <NotAssign>데이터 소스가 지정되어 있지 않습니다.</NotAssign>
     <NotCorrectFormat>입력 문자열이 올바른 형식이 없습니다.</NotCorrectFormat>
+    <OneTableOfContentsAllowed>보고서에서 '목차' 구성요소는 동시에 한 개만 사용할 수 있습니다!</OneTableOfContentsAllowed>
     <PrimaryColumnAction>이 작업을 '{0}'의 기본 라인에 적용 할 수 없습니다.</PrimaryColumnAction>
     <RelationsNotFound>관계가 없습니다.</RelationsNotFound>
     <ReportCannotBeSaveDueToErrors>오류에 대한 보고서를 저장할 수 없습니다.</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}'서비스를 찾을 수 없습니다.</ServiceNotFound>
   </Errors>
+  <ExceptionProvider>
+    <Assemblies>어셈블리</Assemblies>
+    <ClickIgnore>자동 저장된 모든 파일을 삭제하려면 '무시'를 클릭하십시오.</ClickIgnore>
+    <Exception>예외</Exception>
+    <ExceptionReport>예외 리포트</ExceptionReport>
+    <Framework>프레임워크</Framework>
+    <General>일반</General>
+    <Message>메세지</Message>
+    <Number>숫자</Number>
+    <PleaseEnterDetailedInformation>이 예외를 유발하는 이벤트에 대한 자세한 정보를 입력하십시오.</PleaseEnterDetailedInformation>
+    <SaveToFile>파일로 저장</SaveToFile>
+    <SendErrorFailed>오류 메시지를 전달하지 못했습니다.</SendErrorFailed>
+    <SendErrorSuccess>오류 메시지가 성공적으로 전달되었습니다.</SendErrorSuccess>
+    <Source>소스</Source>
+    <StackTrace>스택 트레이스</StackTrace>
+    <YouCanRestore>백업 파일에서 저장하지 않은 변경 사항을 복원할 수 있습니다.</YouCanRestore>
+    <YourPreviousWorkSession>이전 작업 세션에서 디자이너가 예기치 않게 종료되었습니다.</YourPreviousWorkSession>
+  </ExceptionProvider>
   <Export>
     <AddPageBreaks>페이지 나누기 추가</AddPageBreaks>
     <AllBands>모든 밴드</AllBands>
@@ -920,6 +964,7 @@
     <DotMatrixMode>도트 매트릭스 모드</DotMatrixMode>
     <EmbeddedFonts>글꼴</EmbeddedFonts>
     <EmbeddedImageData>포함 된 이미지 데이터</EmbeddedImageData>
+    <EnableAnimation>애니메이션 사용</EnableAnimation>
     <Encoding>인코딩 :</Encoding>
     <EncryptionError>단계에서 암호화 오류</EncryptionError>
     <EscapeCodes>이스케이프 코드</EscapeCodes>
@@ -1059,7 +1104,7 @@
     <PcxFiles>PCX 이미지 (*.pcx)|*.pcx</PcxFiles>
     <PdfFiles>Adobe PDF 파일 (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG 이미지 (*.png)|*.png</PngFiles>
-    <Ppt2007Files>Microsoft PowerPoint 2007</Ppt2007Files>
+    <Ppt2007Files>Microsoft PowerPoint 2007/2013 (*.pptx)|*.pptx</Ppt2007Files>
     <ReportEmbededDataFiles>데이타포함 된 보고서 템플릿 (*.mrt)|*.mrt</ReportEmbededDataFiles>
     <ReportFiles>보고서 템플릿 (*.mrt) |</ReportFiles>
     <RtfFiles>서식있는 텍스트 (*.rtf)|*.rtf</RtfFiles>
@@ -1174,10 +1219,19 @@
     <title>크로스 탭 디자이너</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
+    <AccessToken>액세스 토큰</AccessToken>
+    <AccountKey>계정 키</AccountKey>
+    <AccountName>계정 이름</AccountName>
+    <AuthorizationCode>인증 코드</AuthorizationCode>
+    <BlobContentType>Blob 콘텐츠 유형</BlobContentType>
+    <BlobName>Blob 이름</BlobName>
     <ClientId>클라이언트 아이디</ClientId>
     <ClientSecret>클라이언트 암호</ClientSecret>
     <ConnectionString>연결 문자열 :</ConnectionString>
+    <ContainerName>컨테이너 이름</ContainerName>
     <DashboardConnections>대시보드 연결</DashboardConnections>
+    <DatabaseSecret>데이터베이스 비밀번호</DatabaseSecret>
+    <DatasetId>데이터셋 ID</DatasetId>
     <DB2Edit>IBM DB2 연결 편집</DB2Edit>
     <DB2New>새로운 IBM DB2 연결</DB2New>
     <EditConnection>{0} 연결 편집</EditConnection>
@@ -1185,6 +1239,10 @@
     <FirebirdEdit>Firebird 연결 편집</FirebirdEdit>
     <FirebirdNew>새로운 Firebird 연결</FirebirdNew>
     <FirstRowIsHeader>첫 줄은 헤더입니다</FirstRowIsHeader>
+    <GetAuthorizationCode>인증코드 받기</GetAuthorizationCode>
+    <GetTokens>토큰 받기</GetTokens>
+    <GisEdit>GIS 데이터 편집</GisEdit>
+    <GisNew>신규 GIS 데이터</GisNew>
     <ImportData>데이터 가져 오기</ImportData>
     <InformixEdit>Informix 연결 편집</InformixEdit>
     <InformixNew>새로운 Informix 연결</InformixNew>
@@ -1203,17 +1261,23 @@
     <OracleODPEdit>Oracle ODP.NET 연결 편집</OracleODPEdit>
     <OracleODPNew>새로운 Oracle ODP.NET 연결</OracleODPNew>
     <PathData>XML 데이터 경로 :</PathData>
+    <PathGisData>GIS 경로 데이터:</PathGisData>
     <PathJsonData>JSON 데이터 경로 :</PathJsonData>
     <PathSchema>XSD 스키마 경로 :</PathSchema>
     <PathToData>데이터 경로 :</PathToData>
     <Pin>핀</Pin>
     <PostgreSQLEdit>PostgreSQL 연결 편집</PostgreSQLEdit>
     <PostgreSQLNew>새로운 PostgreSQL 연결</PostgreSQLNew>
+    <ProjectId>프로젝트 ID</ProjectId>
     <PromptUserNameAndPassword>프롬프트에 사용자 이름과 암호</PromptUserNameAndPassword>
     <RecentConnections>최근</RecentConnections>
+    <RedirectUrl>리다이렉트 URL</RedirectUrl>
+    <RefreshAccessToken>액세스 토큰 새로고침</RefreshAccessToken>
+    <RefreshToken>토큰 새로고침</RefreshToken>
     <RelationDirection>관계의 방향 :</RelationDirection>
     <ReportConnections>보고서 연결</ReportConnections>
     <SelectData>데이터 선택</SelectData>
+    <ServiceAccountKeyFile>서비스 계정 키 파일</ServiceAccountKeyFile>
     <SpreadsheetId>스프레드쉬트 아이디</SpreadsheetId>
     <SqlCeEdit>SQLServerCE 연결 편집</SqlCeEdit>
     <SqlCeNew>새로운 SQLServerCE 연결</SqlCeNew>
@@ -1228,6 +1292,8 @@
     <UniDirectNew>새로운 유니 다이렉트</UniDirectNew>
     <Unpin>고정 해제</Unpin>
     <UseBearerAuthentication>무기명 인증을 사용</UseBearerAuthentication>
+    <UseOwnClientID>"클라이언트ID" 와 "클라이언트비번" 사용</UseOwnClientID>
+    <UseToken>토큰 사용</UseToken>
     <VistaDBEdit>VistaDB 연결 편집</VistaDBEdit>
     <VistaDBNew>새로운 VistaDB 연결</VistaDBNew>
     <XmlEdit>XML 데이터의 편집</XmlEdit>
@@ -1305,6 +1371,7 @@
     <ExecutedSQLStatementSuccessfully>SQL 문을 성공적으로 실행했습니다</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>새 수식</ExpressionNew>
     <GetColumnsFromAssembly>어셈블리에서 열을 얻기</GetColumnsFromAssembly>
+    <HideUnsupportedDatabases>지원되지 않는 데이터소스 숨기기</HideUnsupportedDatabases>
     <ImportRelations>관계를 가져 오기</ImportRelations>
     <LabelSeparator>구분 :</LabelSeparator>
     <MarkUsedItems>사용된것을 표시</MarkUsedItems>
@@ -1527,8 +1594,9 @@
     <ColorCollectionEditor>컬러 컬렉션 편집기</ColorCollectionEditor>
     <CreateNewComponentStyle>새 구성요소 스타일을 작성</CreateNewComponentStyle>
     <CreateStyleCollection>스타일 컬렉션을 생성</CreateStyleCollection>
+    <CreateStyleOnBase>다른 스타일을 기반으로 스타일 만들기</CreateStyleOnBase>
     <Duplicate>복제 스타일</Duplicate>
-    <EditColors>[색상 편집]</EditColors>
+    <EditColors>색상 편집</EditColors>
     <FromStyle>스타일에서</FromStyle>
     <GetStyle>선택한 구성 요소에서 스타일을 가져오기</GetStyle>
     <MoreStyles>다른 스타일</MoreStyles>
@@ -1686,10 +1754,12 @@
     <barsys_autohide_tooltip>자동 숨기기</barsys_autohide_tooltip>
     <barsys_close_tooltip>닫기</barsys_close_tooltip>
     <barsys_customize_tooltip>사용자</barsys_customize_tooltip>
+    <ClickAndDragPickColor>클릭하고 드래그하여 색상 선택</ClickAndDragPickColor>
     <colorpicker_morecolors>기타 색상(&amp;M)...</colorpicker_morecolors>
     <colorpicker_nofill>없음(&amp;N)</colorpicker_nofill>
     <colorpicker_standardcolorslabel>표준색</colorpicker_standardcolorslabel>
     <colorpicker_themecolorslabel>테마의 색상</colorpicker_themecolorslabel>
+    <colorpickerdialog_alphalabel>알파(&amp;A):</colorpickerdialog_alphalabel>
     <colorpickerdialog_bluelabel>파랑(&amp;B) :</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>취소</colorpickerdialog_cancelbutton>
     <colorpickerdialog_caption>색상</colorpickerdialog_caption>
@@ -2221,9 +2291,17 @@
     <LinkDataForm>링크 데이터</LinkDataForm>
     <MapEditorForm>맵 에디터</MapEditorForm>
   </Map>
+  <MathFormula>
+    <Alphabets>알파벳</Alphabets>
+    <Arrows>화살표</Arrows>
+    <Formulas>공식</Formulas>
+    <Maths>수학</Maths>
+    <Operators>연산자</Operators>
+  </MathFormula>
   <Messages>
     <ChangeRequestTimeout>SQL 쿼리 요청 제한 시간이 보고서 디자이너의 요구 타임 아웃을 초과합니다. 디자이너 구성 요소의 요구 타임 아웃을 {0} 초 이상으로 설정합니다.</ChangeRequestTimeout>
     <DoNotShowAgain>다시 표시하지 않음</DoNotShowAgain>
+    <LatexFormat>LaTeX 형식은 수학 공식을 표시하는 데 사용됩니다.</LatexFormat>
     <MessageTimeOutExpired>명령 제한 시간이 만료되었습니다!</MessageTimeOutExpired>
     <RenderingWillOccurInTheInterpretationMode>공유 보고서를 보면 해석 모드에서 렌더링이 이루어집니다.</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>리소스 "{0}"은 보고서에서 사용되고 있기 때문에 삭제할 수 없습니다.</ResourceCannotBeDeleted>
@@ -2279,6 +2357,7 @@
     <AuthTokenIsNotCorrect>토큰이 맞지 않습니다!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>당신은 로그 아웃했습니다!</AuthUserHasLoggedOut>
     <AuthUserNameAlreadyExists>사용자 이름 (Email)은 이미 사용 중입니다!</AuthUserNameAlreadyExists>
+    <AuthUserNameEmailIsBlocked>이 이메일 주소는 사용할 수 없습니다!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>사용자 이름 (이메일)는 지정되지 않습니다!</AuthUserNameIsNotSpecified>
     <AuthUserNameNotAssociatedWithYourAccount>당신의  {1}계정의  사용자 이름 (이메일) {0} 관련이 없습니다!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>사용자 이름 (이메일) 또는 암호가 잘못되었습니다!</AuthUserNameOrPasswordIsNotCorrect>
@@ -2482,11 +2561,13 @@
     <ColorsCategory>색상</ColorsCategory>
     <ColumnsCategory>열</ColumnsCategory>
     <ComboBoxCategory>콤보 상자</ComboBoxCategory>
+    <CommonCategory>공통</CommonCategory>
     <ControlCategory>컨트롤</ControlCategory>
     <ControlsEventsCategory>컨트롤 이벤트</ControlsEventsCategory>
     <CrossTabCategory>크로스 탭</CrossTabCategory>
     <DashboardCategory>대시보드</DashboardCategory>
     <DataCategory>데이터</DataCategory>
+    <DataCells>데이터 셀</DataCells>
     <DatePickerCategory>날자 선택기</DatePickerCategory>
     <DescriptionCategory>설명</DescriptionCategory>
     <DesignCategory>디자인</DesignCategory>
@@ -2533,6 +2614,7 @@
     <Size>크기</Size>
     <SubReportCategory>하위 보고서</SubReportCategory>
     <TableCategory>테이블</TableCategory>
+    <TableOfContents>목차</TableOfContents>
     <TextAdditionalCategory>추가 텍스트</TextAdditionalCategory>
     <TextCategory>텍스트</TextCategory>
     <TitleCategory>제목</TitleCategory>
@@ -2851,6 +2933,11 @@
     <StiCrossHorAlignmentLeft>왼쪽</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>없음</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>오른쪽</StiCrossHorAlignmentRight>
+    <StiDashboardContentAlignmentCenter>가운데</StiDashboardContentAlignmentCenter>
+    <StiDashboardContentAlignmentLeft>왼쪽</StiDashboardContentAlignmentLeft>
+    <StiDashboardContentAlignmentRight>오른쪽</StiDashboardContentAlignmentRight>
+    <StiDashboardContentAlignmentStretchX>스트레치 X</StiDashboardContentAlignmentStretchX>
+    <StiDashboardContentAlignmentStretchXY>스트레치 XY</StiDashboardContentAlignmentStretchXY>
     <StiDateSelectionModeAutoRange>오토 레인지</StiDateSelectionModeAutoRange>
     <StiDateSelectionModeRange>범위</StiDateSelectionModeRange>
     <StiDateSelectionModeSingle>싱글</StiDateSelectionModeSingle>
@@ -3395,6 +3482,7 @@
     <AlternatingCellForeColor>교대 셀 전경 색상</AlternatingCellForeColor>
     <AlternatingDataColor>교대 데이타 색상</AlternatingDataColor>
     <AlternatingDataForeground>교대 데이타 전경</AlternatingDataForeground>
+    <Always>항상</Always>
     <Anchor>고정</Anchor>
     <Angle>회전</Angle>
     <Antialiasing>안티 앨리어싱</Antialiasing>
@@ -3524,16 +3612,19 @@
     <ConnectOnStart>시작할 때 연결</ConnectOnStart>
     <ConstantLines>상수 선</ConstantLines>
     <Container>컨테이너</Container>
+    <ContentAlignment>내용 정렬</ContentAlignment>
     <ContinuousText>연속 텍스트</ContinuousText>
     <ContourColor>윤곽 색상</ContourColor>
     <Converting>변환</Converting>
     <ConvertNulls>Null을 변환</ConvertNulls>
     <Copies>복사</Copies>
+    <CornerRadius>코너 반지름</CornerRadius>
     <Count>계산</Count>
     <CountData>카운트 데이터</CountData>
     <Create>만들기</Create>
     <CreateFieldOnDoubleClick>더블 클릭하여 필드를 생성</CreateFieldOnDoubleClick>
     <CreateLabel>라벨 만들기</CreateLabel>
+    <CrossFiltering>교차 필터링</CrossFiltering>
     <Culture>문화권</Culture>
     <CustomFonts>사용자 정의 글꼴</CustomFonts>
     <CustomFormat>사용자 정의 형식</CustomFormat>
@@ -3670,6 +3761,7 @@
     <ForeColor>전경색</ForeColor>
     <Format>형식</Format>
     <From>에서</From>
+    <FrozenColumns>고정 컬럼</FrozenColumns>
     <FullConvertExpression>전체 변환 식 ​​</FullConvertExpression>
     <Function>함수</Function>
     <Functions>기능</Functions>
@@ -3705,7 +3797,10 @@
     <HeaderRowsCount>헤더 행수</HeaderRowsCount>
     <Headers>헤더</Headers>
     <HeaderText>헤더 텍스트</HeaderText>
+    <Heading>헤딩</Heading>
+    <Heatmap>히트맵</Heatmap>
     <HeatmapColors>히트 맵 색상</HeatmapColors>
+    <HeatmapWithGroup>그룹 포함 히트맵</HeatmapWithGroup>
     <Height>높이</Height>
     <HideSeriesWithEmptyTitle>빈 제목으로 시리즈를 숨기기</HideSeriesWithEmptyTitle>
     <HideZeros>0을 숨기기</HideZeros>
@@ -3727,8 +3822,10 @@
     <HtmlTags>HTML 태그</HtmlTags>
     <Hyperlink>하이퍼 링크</Hyperlink>
     <HyperlinkDataColumn>하이퍼 링크 데이터 열</HyperlinkDataColumn>
+    <HyperlinkPattern>하이퍼링크 패턴</HyperlinkPattern>
     <Icon>아이콘</Icon>
     <IconAlignment>아이콘 정렬</IconAlignment>
+    <IconColor>아이콘 색상</IconColor>
     <IconSet>아이콘 세트</IconSet>
     <IconSetCondition>아이콘 세트 조건</IconSetCondition>
     <Idents>들여 쓰기</Idents>
@@ -3792,6 +3889,7 @@
     <Language>언어</Language>
     <LargeHeight>페이지 길게보기</LargeHeight>
     <LargeHeightFactor>높이 계수</LargeHeightFactor>
+    <LaTexExpression>LaTex 표현식</LaTexExpression>
     <Latitude>위도</Latitude>
     <Layout>레이아웃</Layout>
     <Left>왼쪽</Left>
@@ -3913,6 +4011,7 @@
     <NewPageAfter>새 페이지 후</NewPageAfter>
     <NewPageBefore>새로운 페이지 이전</NewPageBefore>
     <NextPage>다음 페이지</NextPage>
+    <NoElements>요소 없음</NoElements>
     <NoIcon>아이콘 없음</NoIcon>
     <NullText>널 텍스트</NullText>
     <NumberOfColumns>열 수</NumberOfColumns>
@@ -3982,6 +4081,8 @@
     <ProcessingDuplicates>중복 처리</ProcessingDuplicates>
     <ProcessTilde>프로세스 물결표</ProcessTilde>
     <ProductHomePage>제품 홈페이지</ProductHomePage>
+    <Property>속성</Property>
+    <Provider>공급자</Provider>
     <RadarStyle>레이더 스타일</RadarStyle>
     <RadialBarBorderBrush>방사형 바 테두리 브러시</RadialBarBorderBrush>
     <RadialBarBrush>방사형 바 브러시</RadialBarBrush>
@@ -4037,6 +4138,7 @@
     <RightToLeft>오른쪽에서 왼쪽으로</RightToLeft>
     <Rotation>회전</Rotation>
     <RotationLabels>회전 라벨</RotationLabels>
+    <RotationMode>회전 모드</RotationMode>
     <Round>원</Round>
     <RoundValues>라운드 값</RoundValues>
     <RowCount>행수</RowCount>
@@ -4093,13 +4195,16 @@
     <ShowBubble>버블 표시</ShowBubble>
     <ShowDialog>대화 상자를 표시</ShowDialog>
     <ShowEdgeValues>에지 값을 표시한다</ShowEdgeValues>
+    <ShowHyperlink>하이퍼링크 표시</ShowHyperlink>
     <ShowImageBehind>뒤에 이미지를 표시</ShowImageBehind>
     <ShowInLegend>범례</ShowInLegend>
+    <ShowInnerPoints>내부 포인터 표시</ShowInnerPoints>
     <ShowInPercent>%로 표시</ShowInPercent>
     <ShowLabels>라벨 표시</ShowLabels>
     <ShowLabelText>라벨 텍스트를 보기</ShowLabelText>
     <ShowLegend>전설보기</ShowLegend>
     <ShowMarker>쇼 마커</ShowMarker>
+    <ShowMeanMarkers>평균 마커 표시</ShowMeanMarkers>
     <ShowNulls>널값 보기</ShowNulls>
     <ShowOthers>밖에도 표시</ShowOthers>
     <ShowPercents>백분율을 표시</ShowPercents>
@@ -4138,6 +4243,7 @@
     <SortingEnabled>정렬을 사용</SortingEnabled>
     <SortType>정렬 유형</SortType>
     <Space>공간</Space>
+    <SpaceRatio>공백 비율</SpaceRatio>
     <Spacing>간격</Spacing>
     <SqlCommand>SQL 명령</SqlCommand>
     <StartAngle>시작 각도</StartAngle>
@@ -4169,6 +4275,7 @@
     <SubReportPage>하위 보고서</SubReportPage>
     <Summaries>요약</Summaries>
     <Summary>요약</Summary>
+    <SummaryAlignment>요약 정렬</SummaryAlignment>
     <SummaryExpression>요약 식</SummaryExpression>
     <SummarySortDirection>요약 정렬 방향</SummarySortDirection>
     <SummaryType>요약 유형</SummaryType>
@@ -4225,6 +4332,7 @@
     <TopN>상위 N</TopN>
     <TopSide>상단 사이드</TopSide>
     <Total>총</Total>
+    <TotalLabel>총 라벨</TotalLabel>
     <Totals>총</Totals>
     <TrackColor>Track 색</TrackColor>
     <TransparentColor>투명한 색</TransparentColor>
@@ -4243,6 +4351,7 @@
     <UnlimitedBreakable>무제한 나누기</UnlimitedBreakable>
     <UnlimitedHeight>무제한 높이</UnlimitedHeight>
     <UnlimitedWidth>무제한 폭</UnlimitedWidth>
+    <UpperMarks>상단 마크</UpperMarks>
     <UseAliases>별칭을 사용</UseAliases>
     <UseExternalReport>외부 보고서를 사용</UseExternalReport>
     <UseParentStyles>부모 스타일을 사용</UseParentStyles>
@@ -4277,6 +4386,7 @@
     <VertSpacing>수직 간격</VertSpacing>
     <ViewMode>뷰 모드</ViewMode>
     <Visible>표시</Visible>
+    <VisualStates>비주얼 상태</VisualStates>
     <Watermark>워터 마크</Watermark>
     <Weight>무게</Weight>
     <WeightDataColumn>중량 데이터 열</WeightDataColumn>
@@ -4290,6 +4400,7 @@
     <XTopAxis>X 맨 축</XTopAxis>
     <YAxis>Y 축</YAxis>
     <YRightAxis>Y 오른쪽 축</YRightAxis>
+    <ZeroColor>제로 컬러</ZeroColor>
     <Zoom>줌</Zoom>
   </PropertyMain>
   <PropertySystemColors>
@@ -4427,7 +4538,7 @@
     <CreatingReport>보고서 작성</CreatingReport>
     <CrossBands>크로스</CrossBands>
     <Dialogs>대화</Dialogs>
-    <EditStyles>[스타일 편집</EditStyles>
+    <EditStyles>스타일 편집</EditStyles>
     <Enhancements>강화</Enhancements>
     <Errors>오류</Errors>
     <EventsTab>이벤트 탭</EventsTab>
@@ -4468,6 +4579,7 @@
     <LabelPixels>픽셀 :</LabelPixels>
     <LabelQueryTimeout>쿼리 제한 시간 :</LabelQueryTimeout>
     <LabelSystemVariable>시스템 변수 :</LabelSystemVariable>
+    <LabelTableOfContentsHint>Please, check the components which should form the table of contents. One component is equal to one heading level.</LabelTableOfContentsHint>
     <LabelTotals>총</LabelTotals>
     <LabelType>유형 :</LabelType>
     <LabelUserName>사용자 이름 :</LabelUserName>
@@ -4513,6 +4625,11 @@
     <StyleNormal>일반</StyleNormal>
     <StyleNote>주의</StyleNote>
     <StyleWarning>경고</StyleWarning>
+    <VisualChecked>체크됨</VisualChecked>
+    <VisualDefault>기본</VisualDefault>
+    <VisualDisabled>비활성화</VisualDisabled>
+    <VisualHovered>마우스오버</VisualHovered>
+    <VisualPressed>눌려짐</VisualPressed>
     <Warnings>경고</Warnings>
     <WhatsNewInVersion>{0}의 새로운 기능</WhatsNewInVersion>
     <When>{0} {1}</When>

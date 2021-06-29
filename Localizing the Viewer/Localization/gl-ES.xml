@@ -12,8 +12,8 @@
     <DayMonday>Luns</DayMonday>
     <DaySaturday>Sábado</DaySaturday>
     <DaySunday>Domingo</DaySunday>
-    <DayThursday>Martes</DayThursday>
-    <DayTuesday>Xoves</DayTuesday>
+    <DayThursday>Xoves</DayThursday>
+    <DayTuesday>Martes</DayTuesday>
     <DayWednesday>Mércores</DayWednesday>
     <FirstPage>Primeira Páxina</FirstPage>
     <Hours>Horas</Hours>
@@ -3144,7 +3144,7 @@
     <CreatingReport>Creando Informe</CreatingReport>
     <CrossBands>Banda de Cruzamento</CrossBands>
     <Dialogs>Diálogos</Dialogs>
-    <EditStyles>[Editar Estilos]</EditStyles>
+    <EditStyles>Editar Estilos</EditStyles>
     <Errors>Erros</Errors>
     <EventsTab>Pestana de Eventos</EventsTab>
     <ExpandAll>Expandir todo</ExpandAll>

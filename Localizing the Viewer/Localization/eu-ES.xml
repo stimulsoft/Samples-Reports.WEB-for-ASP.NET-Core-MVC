@@ -12,7 +12,7 @@
     <DayMonday>Astelehena</DayMonday>
     <DaySaturday>Larunbata</DaySaturday>
     <DaySunday>Igandea</DaySunday>
-    <DayThursday>Asteartea</DayThursday>
+    <DayThursday>Baskisch</DayThursday>
     <DayTuesday>Osteguna</DayTuesday>
     <DayWednesday>Asteazkena</DayWednesday>
     <FirstPage>Lehen Orrialdea</FirstPage>
@@ -3143,7 +3143,7 @@
     <CreatingReport>Txostena sortzen</CreatingReport>
     <CrossBands>Gurutzamendu Banda</CrossBands>
     <Dialogs>Elkarrizketak</Dialogs>
-    <EditStyles>[Estiloak Editatu]</EditStyles>
+    <EditStyles>Estiloak Editatu</EditStyles>
     <Errors>Erroreak</Errors>
     <EventsTab>Ekitaldien Erlaitza</EventsTab>
     <ExpandAll>Guztia zabaldu</ExpandAll>

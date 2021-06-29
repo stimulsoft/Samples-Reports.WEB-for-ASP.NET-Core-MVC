@@ -930,7 +930,7 @@
     <groupGridDrawingOptions>Možnosti gridu pro kreslení</groupGridDrawingOptions>
     <groupGridOptions>Možnosti gridu</groupGridOptions>
     <groupGridSize>Velikost gridu</groupGridSize>
-    <groupMainOptions>Hlavní možnosti pro práci s report designerem</groupMainOptions>
+    <groupMainOptions>Hlavní možnosti pro práci s designerem</groupMainOptions>
     <groupMarkersStyle>Styl označovače</groupMarkersStyle>
     <groupOptionsOfQuickInfo>Možnosti rychlé nápovědy</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Vyberte typ GUI</groupPleaseSelectTypeOfGui>
@@ -3139,7 +3139,7 @@
     <CreatingReport>Vytváření sestavy</CreatingReport>
     <CrossBands>Křížové pruhy</CrossBands>
     <Dialogs>Ovládací prvky sestavy</Dialogs>
-    <EditStyles>[Upravit styly]</EditStyles>
+    <EditStyles>Upravit styly</EditStyles>
     <Errors>Chyby</Errors>
     <EventsTab>Záložka událostí</EventsTab>
     <ExpandAll>Rozbalit vše</ExpandAll>

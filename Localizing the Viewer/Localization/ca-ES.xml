@@ -12,7 +12,7 @@
     <DayMonday>Dilluns</DayMonday>
     <DaySaturday>Dissabte</DaySaturday>
     <DaySunday>Diumenge</DaySunday>
-    <DayThursday>Dimarts</DayThursday>
+    <DayThursday>Katalanisch</DayThursday>
     <DayTuesday>Dijous</DayTuesday>
     <DayWednesday>Dimecres</DayWednesday>
     <FirstPage>Primera pàgina</FirstPage>
@@ -3144,7 +3144,7 @@
     <CreatingReport>S’està creant l’informe</CreatingReport>
     <CrossBands>Banda de creuament</CrossBands>
     <Dialogs>Diàlegs</Dialogs>
-    <EditStyles>[Edita els estils]</EditStyles>
+    <EditStyles>Edita els estils</EditStyles>
     <Errors>Errors</Errors>
     <EventsTab>Pestanya d’esdeveniments</EventsTab>
     <ExpandAll>Expandeix-ho tot</ExpandAll>
