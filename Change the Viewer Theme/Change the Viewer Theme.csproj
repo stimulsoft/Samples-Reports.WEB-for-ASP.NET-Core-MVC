@@ -4,6 +4,6 @@
     <RootNamespace>Change_the_Viewer_Theme</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.3.4" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.3.5" />
   </ItemGroup>
 </Project>
