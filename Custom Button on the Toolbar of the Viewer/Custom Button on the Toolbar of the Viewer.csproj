@@ -4,6 +4,6 @@
     <RootNamespace>Custom_Button_on_the_Toolbar_of_the_Viewer</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.3.5" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.3.7" />
   </ItemGroup>
 </Project>
