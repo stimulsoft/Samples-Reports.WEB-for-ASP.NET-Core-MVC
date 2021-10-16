@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Custom Function to the 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Button on the Toolbar of the Viewer", "Custom Button on the Toolbar of the Viewer\Custom Button on the Toolbar of the Viewer.csproj", "{FD7B7C67-7115-4638-ADB0-3F1FF895C2CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect to Data from the Code", "Connect to Data from the Code\Connect to Data from the Code.csproj", "{2A6E144D-E9A2-4171-8A49-8E48F14663E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connect to Data from the Code", "Connect to Data from the Code\Connect to Data from the Code.csproj", "{2A6E144D-E9A2-4171-8A49-8E48F14663E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report Export Service", "Report Export Service\Report Export Service.csproj", "{B36846A6-9EEC-42A6-AD44-F34CD42761F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{2A6E144D-E9A2-4171-8A49-8E48F14663E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A6E144D-E9A2-4171-8A49-8E48F14663E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A6E144D-E9A2-4171-8A49-8E48F14663E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36846A6-9EEC-42A6-AD44-F34CD42761F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36846A6-9EEC-42A6-AD44-F34CD42761F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36846A6-9EEC-42A6-AD44-F34CD42761F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36846A6-9EEC-42A6-AD44-F34CD42761F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
