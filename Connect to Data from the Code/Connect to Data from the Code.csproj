@@ -4,6 +4,6 @@
     <RootNamespace>Connect_to_Data_from_the_Code</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.4.1" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.4.2" />
   </ItemGroup>
 </Project>

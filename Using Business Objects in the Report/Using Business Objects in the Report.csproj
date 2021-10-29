@@ -4,6 +4,6 @@
     <RootNamespace>Using_Business_Objects_in_the_Report</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.4.1" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.4.2" />
   </ItemGroup>
 </Project>
