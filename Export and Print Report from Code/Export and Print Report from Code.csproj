@@ -4,6 +4,6 @@
     <RootNamespace>Export_and_Print_Report_from_Code</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.4.2" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.4.3" />
   </ItemGroup>
 </Project>
