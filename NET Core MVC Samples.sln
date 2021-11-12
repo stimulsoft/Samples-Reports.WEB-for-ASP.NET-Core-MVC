@@ -9,35 +9,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using Business Objects in t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showing Interactive Reports", "Showing Interactive Reports\Showing Interactive Reports.csproj", "{4CACA8CF-77C0-48A6-9462-49F55ED460DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Show Report in the Viewer", "Show Report in the Viewer\Show Report in the Viewer.csproj", "{B1FA7A3F-5CDD-462D-A5CC-1EC93E408354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showing a Report in the Viewer", "Showing a Report in the Viewer\Showing a Report in the Viewer.csproj", "{B1FA7A3F-5CDD-462D-A5CC-1EC93E408354}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send Report by Email", "Send Report by Email\Send Report by Email.csproj", "{D21FC743-5B8C-4C21-AA40-E1FBBA29BC01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sending a Report by Email", "Sending a Report by Email\Sending a Report by Email.csproj", "{D21FC743-5B8C-4C21-AA40-E1FBBA29BC01}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Save Report Template in the Designer", "Save Report Template in the Designer\Save Report Template in the Designer.csproj", "{F18635D1-B4D4-4CEA-ABB2-069D897DACD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saving a Report Template in the Designer", "Saving a Report Template in the Designer\Saving a Report Template in the Designer.csproj", "{F18635D1-B4D4-4CEA-ABB2-069D897DACD1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Render Report in the Console App", "Render Report in the Console App\Render Report in the Console App.csproj", "{3344DD5D-A29A-4264-AFB5-DFBE43D488A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rendering and Exporting a Report in the Console App", "Rendering and Exporting a Report in the Console App\Rendering and Exporting a Report in the Console App.csproj", "{3344DD5D-A29A-4264-AFB5-DFBE43D488A0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manage Report Printing and Exporting", "Manage Report Printing and Exporting\Manage Report Printing and Exporting.csproj", "{48E4674E-B6DA-4215-84DA-437647EF94F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Managing Report Printing and Exporting", "Managing Report Printing and Exporting\Managing Report Printing and Exporting.csproj", "{48E4674E-B6DA-4215-84DA-437647EF94F8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localizing the Viewer", "Localizing the Viewer\Localizing the Viewer.csproj", "{07EEBC79-0460-4ACB-BCCB-D569DDCA5182}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Full Screen Mode in Viewer", "Full Screen Mode in Viewer\Full Screen Mode in Viewer.csproj", "{90246132-4A55-4C61-9821-6C6CAAC7DE46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using the Full-Screen Mode in the Viewer", "Using the Full-Screen Mode in the Viewer\Using the Full-Screen Mode in the Viewer.csproj", "{90246132-4A55-4C61-9821-6C6CAAC7DE46}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Export and Print Report from Code", "Export and Print Report from Code\Export and Print Report from Code.csproj", "{D059F1DA-BF2A-47CE-8C6F-84F1AD7E8667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exporting and Printing a Report from Code", "Exporting and Printing a Report from Code\Exporting and Printing a Report from Code.csproj", "{D059F1DA-BF2A-47CE-8C6F-84F1AD7E8667}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edit Report in the Designer", "Edit Report in the Designer\Edit Report in the Designer.csproj", "{C7848469-981B-44DE-91AB-A340FC3D4156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Editing a Report Template in the Designer", "Editing a Report Template in the Designer\Editing a Report Template in the Designer.csproj", "{C7848469-981B-44DE-91AB-A340FC3D4156}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Change the Viewer Theme", "Change the Viewer Theme\Change the Viewer Theme.csproj", "{20543E40-95C9-47D6-BFC8-66D0711D688F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Changing the Viewer Theme", "Changing the Viewer Theme\Changing the Viewer Theme.csproj", "{20543E40-95C9-47D6-BFC8-66D0711D688F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Working with Reports in macOS", "Working with Reports in macOS\Working with Reports in macOS.csproj", "{8ED3E8CE-D9ED-42DE-98EC-E9A5D034DF44}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Custom Function to the Designer", "Add Custom Function to the Designer\Add Custom Function to the Designer.csproj", "{516DDCFE-8620-417D-949D-3F06D86CCCDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adding a Custom Function to the Designer", "Adding a Custom Function to the Designer\Adding a Custom Function to the Designer.csproj", "{516DDCFE-8620-417D-949D-3F06D86CCCDE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Button on the Toolbar of the Viewer", "Custom Button on the Toolbar of the Viewer\Custom Button on the Toolbar of the Viewer.csproj", "{FD7B7C67-7115-4638-ADB0-3F1FF895C2CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creating a Custom Button on the Viewer Toolbar", "Creating a Custom Button on the Viewer Toolbar\Creating a Custom Button on the Viewer Toolbar.csproj", "{FD7B7C67-7115-4638-ADB0-3F1FF895C2CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connect to Data from the Code", "Connect to Data from the Code\Connect to Data from the Code.csproj", "{2A6E144D-E9A2-4171-8A49-8E48F14663E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connecting to Data from Code", "Connecting to Data from Code\Connecting to Data from Code.csproj", "{2A6E144D-E9A2-4171-8A49-8E48F14663E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report Export Service", "Report Export Service\Report Export Service.csproj", "{B36846A6-9EEC-42A6-AD44-F34CD42761F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using a Report Export Service", "Using a Report Export Service\Using a Report Export Service.csproj", "{B36846A6-9EEC-42A6-AD44-F34CD42761F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
