@@ -4,18 +4,18 @@
 
 # Overview
 This repository has some examples (Visual Studio Projects) each in different folders:
-* Add Custom Function to the Designer
-* Change the Viewer Theme
-* Custom Button on the Toolbar of the Viewer
-* Edit Report in the Designer
-* Export and Print Report from Code
-* Full Screen Mode in Viewer
+* Adding a Custom Function to the Designer
+* Changing the Viewer Theme
+* Creating a Custom Button on the Viewer Toolbar
+* Editing a Report Template in the Designer
+* Exporting and Printing a Report from Code
+* Using the Full-Screen Mode in the Viewer
 * Localizing the Viewer
-* Manage Report Printing and Exporting
-* Render Report in the Console App
-* Save Report Template in the Designer
-* Send Report by Email
-* Show Report in the Viewer
+* Managing Report Printing and Exporting
+* Rendering and Exporting a Report in the Console App
+* Saving a Report Template in the Designer
+* Sending a Report by Email
+* Showing a Report in the Viewer
 * Showing Interactive Reports
 * Using Business Objects in the Report
 * Web Demo
