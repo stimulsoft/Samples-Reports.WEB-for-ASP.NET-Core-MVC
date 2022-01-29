@@ -50,7 +50,7 @@ namespace Web_Demo
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=View}/{action=Reports}/{id=SimpleList}");
+                    pattern: "{controller=Home}/{action=Index}/{id=SimpleList}");
             });
         }
     }

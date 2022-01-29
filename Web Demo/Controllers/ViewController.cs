@@ -20,35 +20,10 @@ namespace Web_Demo.Controllers
 
         public IActionResult GetReport(string id = "SimpleList")
         {
-            // Create the report object and load data from xml file
+            // Create the report object
             var report = new StiReport();
 
-            // Load report from MDZ document file
-            // If not found - load from MRT template
-            switch (id)
-            {
-                // Interactive Reports
-                case "DrillDownSorting":
-
-                // Parameters
-                case "ParametersDetailedCategories":
-                case "ParametersDetailedOrders":
-                case "ParametersHighlightCondition":
-                case "ParametersSelectingCountry":
-                case "ParametersInvoice":
-
-                // {Today} function is used
-                case "MultiColumnListContainers":
-                    var data = new DataSet("Demo");
-                    data.ReadXml(StiNetCoreHelper.MapPath(this, "Data/Demo.xml"));
-                    report.Load(StiNetCoreHelper.MapPath(this, "ReportTemplates/" + id + ".mrt"));
-                    report.RegData(data);
-                    break;
-
-                default:
-                    report.LoadPackedDocument(StiNetCoreHelper.MapPath(this, "ReportSnapshots/" + id + ".mdz"));
-                    break;
-            }
+            report.Load(StiNetCoreHelper.MapPath(this, "/Reports/" + id + ".mrt"));
 
             return StiNetCoreViewer.GetReportResult(this, report);
         }

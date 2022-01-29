@@ -22,7 +22,7 @@ namespace Web_Demo.Controllers
         {
             // Create the report object and load data from xml file
             var report = new StiReport();
-            report.Load(StiNetCoreHelper.MapPath(this, "ReportTemplates/" + id + ".mrt"));
+            report.Load(StiNetCoreHelper.MapPath(this, "/Reports/" + id + ".mrt"));
 
             return StiNetCoreDesigner.GetReportResult(this, report);
         }
@@ -40,20 +40,6 @@ namespace Web_Demo.Controllers
             return StiNetCoreDesigner.SaveReportResult(this);
         }
 
-        public IActionResult PreviewReport()
-        {
-            // Get the report template
-            var report = StiNetCoreDesigner.GetActionReportObject(this);
-
-            // Register data, if necessary
-            var data = new DataSet("Demo");
-            data.ReadXml(StiNetCoreHelper.MapPath(this, "Data/Demo.xml"));
-            report.Dictionary.Databases.Clear();
-            report.RegData(data);
-
-            // Return the report snapshot result to the client
-            return StiNetCoreDesigner.PreviewReportResult(this, report);
-        }
 
         public IActionResult DesignerEvent()
         {
