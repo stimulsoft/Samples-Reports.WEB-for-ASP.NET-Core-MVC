@@ -4,6 +4,6 @@
     <RootNamespace>Using_a_Using_a_Report_Export_Service</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Engine.NetCore" Version="2022.2.1" />
+    <PackageReference Include="Stimulsoft.Reports.Engine.NetCore" Version="2022.2.2" />
   </ItemGroup>
 </Project>
