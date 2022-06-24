@@ -6,7 +6,7 @@
     <Databases isList="true" count="1">
       <Demo Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
         <Alias>Demo</Alias>
-        <Key />
+        <Key>16076ebab7e445a99416e5fc796d608d</Key>
         <Name>Demo</Name>
         <PathData>resource://Demo2</PathData>
         <PathSchema>resource://Demo</PathSchema>
@@ -118,20 +118,21 @@
         </ParentColumns>
         <ParentSource isRef="5" />
       </ParentProducts>
-      <ParentCategories Ref="9" type="DataRelation" isKey="true">
+      <Categories Ref="9" type="DataRelation" isKey="true">
         <Alias>Categories</Alias>
         <ChildColumns isList="true" count="1">
           <value>CategoryID</value>
         </ChildColumns>
         <ChildSource isRef="5" />
         <Dictionary isRef="1" />
-        <Name>ParentCategories</Name>
+        <Key>d074a2b5e0fb4f62be1c3c1bf5b20cc1</Key>
+        <Name>Categories</Name>
         <NameInSource>CategoriesProducts</NameInSource>
         <ParentColumns isList="true" count="1">
           <value>CategoryID</value>
         </ParentColumns>
         <ParentSource isRef="3" />
-      </ParentCategories>
+      </Categories>
       <Orders Ref="10" type="DataRelation" isKey="true">
         <Alias>Orders</Alias>
         <ChildColumns isList="true" count="1">
@@ -187,6 +188,7 @@
               <ClientRectangle>0,0,749,20</ClientRectangle>
               <ComponentStyle>Footer2</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <Guid>c8f19b070a6f4b4facf5b1a643554736</Guid>
               <HorAlignment>Right</HorAlignment>
@@ -200,6 +202,7 @@
             </Text5>
           </Components>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Guid>acd7c441976e49f2a0610fcd2c91a3ec</Guid>
           <Name>PageFooterBand2</Name>
           <Page isRef="12" />
@@ -215,6 +218,7 @@
               <ClientRectangle>570,0,179,40</ClientRectangle>
               <ComponentStyle>Header2</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
               <Guid>1e9810989ef54290ae71a5c04bf1cc6f</Guid>
               <HorAlignment>Right</HorAlignment>
@@ -233,6 +237,7 @@
               <ClientRectangle>0,0,570,40</ClientRectangle>
               <ComponentStyle>Header2</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
               <Guid>2c5e846ecae74cd5bc625c2979982187</Guid>
               <Margins>0,0,0,0</Margins>
@@ -251,6 +256,7 @@
               <ClientRectangle>0,40,570,20</ClientRectangle>
               <ComponentStyle>Footer2</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <Guid>f0b94eeaa11342dc993c7a84de7c04aa</Guid>
               <Margins>0,0,0,0</Margins>
@@ -269,6 +275,7 @@
               <ClientRectangle>570,40,179,20</ClientRectangle>
               <ComponentStyle>Footer2</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <Guid>828792fd7bea4171aa44efc6c14a9958</Guid>
               <HorAlignment>Right</HorAlignment>
@@ -283,6 +290,7 @@
             </Text27>
           </Components>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Guid>cd54028c38914069a615625c1d597b62</Guid>
           <Name>ReportTitleBand1</Name>
           <Page isRef="12" />
@@ -297,6 +305,7 @@
               <ClientRectangle>0,0,749,30</ClientRectangle>
               <ComponentStyle>Header1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,15.75,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -309,6 +318,7 @@
             </Text22>
           </Components>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>HeaderBand3</Name>
           <Page isRef="12" />
           <Parent isRef="12" />
@@ -324,6 +334,7 @@
               <Brush>[77:182:172]</Brush>
               <ClientRectangle>0,0,270,40</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,12,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -340,6 +351,7 @@
               <ClientRectangle>270,0,200,40</ClientRectangle>
               <ComponentStyle>Header3</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,12,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -356,6 +368,7 @@
               <ClientRectangle>470,0,120,40</ClientRectangle>
               <ComponentStyle>Header3</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,12,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -371,6 +384,7 @@
               <Brush>[77:182:172]</Brush>
               <ClientRectangle>590,0,159,40</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,12,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -384,6 +398,7 @@
           </Components>
           <ComponentStyle>Header3</ComponentStyle>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>HeaderBand1</Name>
           <Page isRef="12" />
           <Parent isRef="12" />
@@ -400,6 +415,7 @@
               <ClientRectangle>270,0,200,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>3,3,3,3</Margins>
@@ -418,6 +434,7 @@
               <ClientRectangle>470,0,120,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>3,3,3,3</Margins>
@@ -436,6 +453,7 @@
               <ClientRectangle>590,0,159,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>3,3,3,3</Margins>
@@ -454,6 +472,7 @@
               <ClientRectangle>30,0,240,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>3,3,3,3</Margins>
@@ -472,6 +491,7 @@
               <ClientRectangle>0,0,30,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>2307d1b5bee5446294ba557791c5857e</Guid>
@@ -490,6 +510,7 @@
           <Conditions isList="true" count="0" />
           <DataSourceName>Customers</DataSourceName>
           <EvenStyle>Data2</EvenStyle>
+          <Expressions isList="true" count="0" />
           <Filters isList="true" count="0" />
           <Name>DataBand1</Name>
           <Page isRef="12" />
@@ -501,6 +522,7 @@
           <ClientRectangle>0,350,749,40</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Guid>09c87f803b364478873d7b660bb1803f</Guid>
           <Name>FooterBand1</Name>
           <Page isRef="12" />
@@ -517,6 +539,7 @@
               <ClientRectangle>0,0,749,30</ClientRectangle>
               <ComponentStyle>Header1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,15.75,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -529,6 +552,7 @@
             </Text21>
           </Components>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>HeaderBand4</Name>
           <Page isRef="12" />
           <Parent isRef="12" />
@@ -544,6 +568,7 @@
               <ClientRectangle>370,0,260,40</ClientRectangle>
               <ComponentStyle>Header3</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,12,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -559,6 +584,7 @@
               <Brush>[77:182:172]</Brush>
               <ClientRectangle>0,0,370,40</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,12,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -574,6 +600,7 @@
               <Brush>[77:182:172]</Brush>
               <ClientRectangle>630,0,119,40</ClientRectangle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,12,Bold,Point,False,204</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -586,6 +613,7 @@
             </Text12>
           </Components>
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Name>HeaderBand2</Name>
           <Page isRef="12" />
           <Parent isRef="12" />
@@ -602,6 +630,7 @@
               <ClientRectangle>30,0,340,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>3,3,3,3</Margins>
@@ -619,6 +648,7 @@
               <ClientRectangle>370,0,260,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <Margins>3,3,3,3</Margins>
@@ -636,6 +666,7 @@
               <ClientRectangle>630,0,119,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Right</HorAlignment>
@@ -660,6 +691,7 @@
               <ClientRectangle>0,0,30,20</ClientRectangle>
               <ComponentStyle>Data1</ComponentStyle>
               <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
               <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
               <GrowToHeight>True</GrowToHeight>
               <Guid>c83873eb71f4408a99c7deefb6ee2aed</Guid>
@@ -677,6 +709,7 @@
           <Conditions isList="true" count="0" />
           <DataSourceName>Products</DataSourceName>
           <EvenStyle>Data2</EvenStyle>
+          <Expressions isList="true" count="0" />
           <Filters isList="true" count="0" />
           <Name>DataBand2</Name>
           <Page isRef="12" />
@@ -691,6 +724,7 @@
           <ClientRectangle>0,650,749,10</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
           <Guid>1272b297b8984d5ab3360e67c218c6b1</Guid>
           <Name>FooterBand2</Name>
           <Page isRef="12" />
@@ -700,6 +734,7 @@
         </FooterBand2>
       </Components>
       <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
       <Guid>468cecb8155a44019d5fe1a8a26a8439</Guid>
       <Margins>39,39,39,39</Margins>
       <Name>Page1</Name>
@@ -719,14 +754,14 @@
   </ReferencedAssemblies>
   <ReportAlias>TwoSimpleLists</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportChanged>10/21/2019 11:21:42 AM</ReportChanged>
+  <ReportChanged>6/24/2022 9:32:53 AM</ReportChanged>
   <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
   <ReportDescription>This sample demonstrates how to create two simple list reports.</ReportDescription>
-  <ReportFile>D:\Reports\demo.stimulsoft.com\Reports\TwoSimpleLists.mrt</ReportFile>
-  <ReportGuid>fd54d21b78db4c71ae81eb1e5a983359</ReportGuid>
+  <ReportFile>D:\Stimulsoft\Samples\Samples-NET.Core-3.1-MVC-CSharp\Connecting to Data from Code\Reports\TwoSimpleLists.mrt</ReportFile>
+  <ReportGuid>962993b1cd384d8f80e169d62f1a79c9</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>HundredthsOfInch</ReportUnit>
-  <ReportVersion>2019.4.1.0</ReportVersion>
+  <ReportVersion>2022.3.2.0</ReportVersion>
   <Script>using System;
 using System.Drawing;
 using System.Windows.Forms;
