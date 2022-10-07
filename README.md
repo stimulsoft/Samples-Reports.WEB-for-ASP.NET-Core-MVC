@@ -6,6 +6,7 @@
 This repository has some examples (Visual Studio Projects) each in different folders:
 * Adding a Custom Function to the Designer
 * Changing the Viewer Theme
+* Configuring Report caching
 * Connecting to Data from Code
 * Creating a Custom Button on the Viewer Toolbar
 * Editing a Report Template in the Designer

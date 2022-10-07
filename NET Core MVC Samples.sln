@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web Demo", "Web Demo\Web Demo.csproj", "{670B206E-B49A-4A6E-A5C7-75DA5D9F4682}"
 EndProject
@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creating a Custom Button on
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connecting to Data from Code", "Connecting to Data from Code\Connecting to Data from Code.csproj", "{2A6E144D-E9A2-4171-8A49-8E48F14663E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using a Report Export Service", "Using a Report Export Service\Using a Report Export Service.csproj", "{B36846A6-9EEC-42A6-AD44-F34CD42761F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using a Report Export Service", "Using a Report Export Service\Using a Report Export Service.csproj", "{B36846A6-9EEC-42A6-AD44-F34CD42761F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuring Report caching", "Configuring Report caching\Configuring Report caching.csproj", "{67075276-5B47-45BA-B8AC-8083CFD1FFF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{B36846A6-9EEC-42A6-AD44-F34CD42761F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B36846A6-9EEC-42A6-AD44-F34CD42761F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B36846A6-9EEC-42A6-AD44-F34CD42761F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67075276-5B47-45BA-B8AC-8083CFD1FFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67075276-5B47-45BA-B8AC-8083CFD1FFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67075276-5B47-45BA-B8AC-8083CFD1FFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67075276-5B47-45BA-B8AC-8083CFD1FFF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
