@@ -8,7 +8,7 @@ using System.Data;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Mvc;
 using Stimulsoft.Report.Web;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace Configuring_Report_caching.Controllers
 {
