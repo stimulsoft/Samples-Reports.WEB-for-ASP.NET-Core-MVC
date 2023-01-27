@@ -4,6 +4,6 @@
     <RootNamespace>Editing_a_Report_Template_in_the_Designer</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.1.5" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.1.6" />
   </ItemGroup>
 </Project>
