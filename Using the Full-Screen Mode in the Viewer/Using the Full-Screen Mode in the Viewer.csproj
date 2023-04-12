@@ -4,6 +4,6 @@
     <RootNamespace>Using_the_Full_Screen_Mode_in_the_Viewer</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.1" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.2" />
   </ItemGroup>
 </Project>

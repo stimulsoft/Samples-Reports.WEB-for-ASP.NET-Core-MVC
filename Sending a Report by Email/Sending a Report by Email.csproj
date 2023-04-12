@@ -4,6 +4,6 @@
     <RootNamespace>Sending_a_Report_by_Email</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.1" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.2" />
   </ItemGroup>
 </Project>
