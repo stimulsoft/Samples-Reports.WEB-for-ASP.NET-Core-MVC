@@ -4,6 +4,6 @@
     <RootNamespace>Localizing_the_Viewer</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.3" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.4" />
   </ItemGroup>
 </Project>
