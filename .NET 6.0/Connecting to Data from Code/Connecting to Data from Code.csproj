@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Connecting_to_Data_from_Code</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.2.5" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿@using Stimulsoft.Report.Mvc;
+
+@{
+    ViewBag.Title = "MS SQL Cache";
+}
+
+<h2>MS SQL Cache</h2>
+<br />
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    }
+})
