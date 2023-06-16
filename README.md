@@ -3,7 +3,7 @@
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.WEB reporting tool in the ASP.NET Core applications, using C# code and HTML5 components. Stimulsoft Reports.WEB report generator and examples are compatible with .NET Core 3.1, .NET 5.0, .NET 6.0, and .NET 7.0 frameworks.
 
 ## Overview
-This repository contains a set of examples (Visual Studio projects), each in different folders:
+This repository has a set of examples (Visual Studio projects), each in different folders:
 * [Adding a Custom Function to the Designer](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Adding%20a%20Custom%20Function%20to%20the%20Designer)
 * [Adding a Font to the Resource](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Adding%20a%20Font%20to%20the%20Resource)
 * [Changing the Viewer Options from the Controller](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%206.0/Changing%20the%20Viewer%20Options%20from%20the%20Controller)
@@ -53,5 +53,5 @@ Stimulsoft Reports.WEB is a cross-platform reporting tool designed to create, bu
 * [Product Page](https://www.stimulsoft.com/en/products/reports-web)
 * [Free Download](https://www.stimulsoft.com/en/downloads)
 * [NuGet](https://www.nuget.org/packages/Stimulsoft.Reports.Web.NetCore)
-* [Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/index.html?reports_web_asp_net_core.htm)
+* [Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/reports_web_asp_net_core.htm)
 * [License](LICENSE.md)
