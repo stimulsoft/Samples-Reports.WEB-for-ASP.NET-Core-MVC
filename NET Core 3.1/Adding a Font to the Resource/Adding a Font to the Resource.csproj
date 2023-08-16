@@ -4,6 +4,6 @@
     <RootNamespace>Adding_a_Font_to_the_Resource</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.3.1" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.3.2" />
   </ItemGroup>
 </Project>
