@@ -4,7 +4,7 @@
     <RootNamespace>Web_Demo</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.3.2" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2023.3.3" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
