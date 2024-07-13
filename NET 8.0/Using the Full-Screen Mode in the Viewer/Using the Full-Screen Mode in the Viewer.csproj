@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Using_the_Full_Screen_Mode_in_the_Viewer</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2024.3.2" />
+  </ItemGroup>
+</Project>
