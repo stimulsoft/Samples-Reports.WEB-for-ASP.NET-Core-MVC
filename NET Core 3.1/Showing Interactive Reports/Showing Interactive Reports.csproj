@@ -4,6 +4,6 @@
     <RootNamespace>Showing_Interactive_Reports</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2024.3.6" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2024.4.1" />
   </ItemGroup>
 </Project>
