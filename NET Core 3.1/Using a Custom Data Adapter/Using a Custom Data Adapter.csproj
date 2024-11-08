@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Using_a_Custom_Data_Adapter</RootNamespace>
+    <AssemblyName>Using_a_Custom_Data_Adapter</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="5.0.11" />
