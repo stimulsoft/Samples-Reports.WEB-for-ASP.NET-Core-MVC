@@ -3,13 +3,13 @@
   <ReportName>Simple List</ReportName>
   <ReportAlias>Simple List</ReportAlias>
   <ReportAuthor>Stimulsoft</ReportAuthor>
-  <ReportVersion>2025.1.3.0</ReportVersion>
+  <ReportVersion>2025.1.2.0</ReportVersion>
   <ReportDescription>This sample demonstrates how to create a simple list report.</ReportDescription>
-  <ReportCreated>1/8/2025 4:45:12 PM</ReportCreated>
+  <ReportCreated>1/9/2025 3:57:59 PM</ReportCreated>
   <RenderedWith>Net</RenderedWith>
   <Unit Ref="1" type="hi" isKey="true" />
   <Culture isNull="true" />
-  <PreviewSettings>25149439</PreviewSettings>
+  <PreviewSettings>125772287</PreviewSettings>
   <Pages isList="true" count="3">
     <Page1 Ref="2" type="Page" isKey="true">
       <PaperSize>A4</PaperSize>
@@ -443,7 +443,7 @@
         <item202 Ref="411" type="Text" isSer="true" name="Text2" text="187 Suffolk Ln." va="Center" pl="d.DataBand1" style="Data1" rc="270,1033.65,200,25.92" fn="Segoe UI,9.75,Regular,Point,False,0" tb="[64:64:64]" bh="Transparent" br="All;[194:194:194];1;Solid;False;4;Black" to=",,,Trimming=Character,,A=0" mr="3,3,3,3" />
         <item203 Ref="412" type="Text" isSer="true" name="Text7" text="71" ha="Center" va="Center" guid="5b832677f467498487ebd4777d80e7b0" pl="d.DataBand1" style="Data1" rc="0,1033.65,30,25.92" fn="Segoe UI,9.75,Regular,Point,False,0" tb="[64:64:64]" bh="Transparent" br="All;[194:194:194];1;Solid;False;4;Black" mr="3,3,3,3" />
       </Components>
-      <Guid>4532a8c3147945f7b265ec15de8e6eba</Guid>
+      <Guid>8ed7c31ae49a42779b6b73c8bbe99813</Guid>
       <Name>Page1</Name>
     </Page1>
     <Page1 Ref="413" type="Page" isKey="true">
@@ -573,7 +573,7 @@
         <item114 Ref="529" type="Text" isSer="true" name="Text2" text="ul. Filtrowa 68" va="Center" pl="d.DataBand1" style="Data1" rc="270,567.06,200,25.92" fn="Segoe UI,9.75,Regular,Point,False,0" tb="[64:64:64]" bh="Transparent" br="All;[194:194:194];1;Solid;False;4;Black" to=",,,Trimming=Character,,A=0" mr="3,3,3,3" />
         <item115 Ref="530" type="Text" isSer="true" name="Text7" text="91" ha="Center" va="Center" guid="5b832677f467498487ebd4777d80e7b0" pl="d.DataBand1" style="Data1" rc="0,567.06,30,25.92" fn="Segoe UI,9.75,Regular,Point,False,0" tb="[64:64:64]" bh="Transparent" br="All;[194:194:194];1;Solid;False;4;Black" mr="3,3,3,3" />
       </Components>
-      <Guid>996ed8be2e6841789468cc6ab3a9e329</Guid>
+      <Guid>16d6234c39e34ae0b8bec57e7d4c1f32</Guid>
       <Name>Page1</Name>
     </Page1>
   </Pages>
@@ -636,7 +636,7 @@
       <Name>Footer1</Name>
     </Footer1>
   </Styles>
-  <Guid>9acf33981ed84a11a9e6273a83994113</Guid>
+  <Guid>d27acee62f9249cd86fedbea87c86a32</Guid>
   <Bookmark Ref="536" type="Bookmark" isKey="true">
     <Bookmarks isList="true" count="0" />
     <text>Simple List</text>
