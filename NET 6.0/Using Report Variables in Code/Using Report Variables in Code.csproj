@@ -4,6 +4,6 @@
     <RootNamespace>Using_Report_Variables_in_Code</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2025.1.6" />
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2025.2.1" />
   </ItemGroup>
 </Project>
