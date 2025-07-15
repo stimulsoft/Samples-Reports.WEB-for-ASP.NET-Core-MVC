@@ -5,7 +5,7 @@
     <AssemblyName>Using_a_Custom_Data_Adapter</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Npgsql" Version="5.0.11" />
+    <PackageReference Include="Npgsql" Version="5.0.18" />
     <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2025.3.1" />
   </ItemGroup>
 </Project>
