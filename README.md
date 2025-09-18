@@ -1,6 +1,6 @@
 # ASP.NET Core MVC samples for Stimulsoft Reports.WEB
 
-#### This repository contains the source code of the examples of usage Stimulsoft Reports.WEB reporting tool in the ASP.NET Core applications, using C# code and HTML5 components. Stimulsoft Reports.WEB report generator and examples are compatible with .NET Standard 2.1, .NET Core 3.1, .NET 5.0, .NET 6.0, .NET 7.0, and .NET 8.0 frameworks. The product is fully compatible with Windows, Linux, and macOS systems.
+#### This repository contains source code examples demonstrating the usage of the Stimulsoft Reports.WEB reporting tool in ASP.NET Core applications, using C# code and HTML5 components. The Stimulsoft Reports.WEB report generator and components are fully compatible with .NET Framework 4.5.2 and higher, as well as with .NET 6.0 and all later versions. The product is fully compatible with Windows, Linux, and macOS systems.
 
 ## Overview
 This repository has a set of examples (Visual Studio projects), each in different folders:
@@ -28,11 +28,10 @@ This repository has a set of examples (Visual Studio projects), each in differen
 * [Using Report Variables in Code](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Using%20Report%20Variables%20in%20Code)
 * [Using the Full-Screen Mode in the Viewer](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Using%20the%20Full-Screen%20Mode%20in%20the%20Viewer)
 * [Web Demo](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%208.0/Web%20Demo)
-* [Working with Reports in macOS](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%20Core%203.1/Working%20with%20Reports%20in%20macOS)
 
 All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings. Currently, projects are prepared for these frameworks:
 
-* [.NET Core 3.1](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%20Core%203.1)
+* [.NET Framework 4.7.2](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-MVC)
 * [.NET 6.0](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%206.0)
 * [.NET 8.0](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-Core/tree/master/NET%208.0)
 

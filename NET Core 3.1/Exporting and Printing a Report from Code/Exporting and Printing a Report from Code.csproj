@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Exporting_and_Printing_a_Report_from_Code</RootNamespace>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2025.3.5" />
-  </ItemGroup>
-</Project>
