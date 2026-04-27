@@ -4,9 +4,9 @@
     <RootNamespace>Creating_a_Custom_Parameter_Panel_for_the_Viewer</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2026.1.7" />
+    <Folder Include="Reports\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Reports\" />
+    <PackageReference Include="Stimulsoft.Reports.Web" Version="2026.2.1" />
   </ItemGroup>
 </Project>

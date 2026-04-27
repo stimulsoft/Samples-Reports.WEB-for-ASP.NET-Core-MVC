@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.29" />
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2026.1.7" />
+    <PackageReference Include="Stimulsoft.Reports.Web" Version="2026.2.1" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
   </ItemGroup>
 </Project>

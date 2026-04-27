@@ -4,9 +4,9 @@
     <RootNamespace>Configuring_Report_caching</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2026.1.7" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\" />
+    <PackageReference Include="Stimulsoft.Reports.Web" Version="2026.2.1" />
   </ItemGroup>
 </Project>
