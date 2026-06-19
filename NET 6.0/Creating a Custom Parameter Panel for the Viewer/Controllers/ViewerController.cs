@@ -17,7 +17,7 @@ namespace Creating_a_Custom_Parameter_Panel_for_the_Viewer.Controllers
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -25,7 +25,7 @@ namespace Creating_a_Custom_Parameter_Panel_for_the_Viewer.Controllers
         {
             return View();
         }
-        
+
         public IActionResult GetReport()
         {
             var report = new StiReport();

@@ -17,7 +17,7 @@ namespace Sending_a_Report_by_Email.Controllers
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -31,7 +31,7 @@ namespace Sending_a_Report_by_Email.Controllers
             // Create the report object
             var report = new StiReport();
             report.Load(StiNetCoreHelper.MapPath(this, "Reports/TwoSimpleLists.mrt"));
-            
+
             return StiNetCoreViewer.GetReportResult(this, report);
         }
 

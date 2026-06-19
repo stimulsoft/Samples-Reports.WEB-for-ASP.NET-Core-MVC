@@ -18,7 +18,7 @@ namespace Managing_Report_Printing_and_Exporting.Controllers
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -32,7 +32,7 @@ namespace Managing_Report_Printing_and_Exporting.Controllers
             // Create the report object
             var report = new StiReport();
             report.Load(StiNetCoreHelper.MapPath(this, "Reports/TwoSimpleLists.mrt"));
-            
+
             return StiNetCoreViewer.GetReportResult(this, report);
         }
 
@@ -67,7 +67,7 @@ namespace Managing_Report_Printing_and_Exporting.Controllers
 
                 return StiNetCoreViewer.ExportReportResult(this, report, settings);
             }
-            
+
             return StiNetCoreViewer.ExportReportResult(this, report);
         }
     }

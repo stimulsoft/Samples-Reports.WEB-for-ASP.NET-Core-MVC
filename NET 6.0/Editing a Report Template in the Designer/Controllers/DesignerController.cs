@@ -16,7 +16,7 @@ namespace Editing_a_Report_Template_in_the_Designer.Controllers
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -29,7 +29,7 @@ namespace Editing_a_Report_Template_in_the_Designer.Controllers
         {
             var report = new StiReport();
             report.Load(StiNetCoreHelper.MapPath(this, "Reports/TwoSimpleLists.mrt"));
-            
+
             return StiNetCoreDesigner.GetReportResult(this, report);
         }
 

@@ -22,7 +22,7 @@ namespace Adding_a_Custom_Function_to_the_Designer.Controllers
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
 
             var ParamNames = new string[1];
@@ -56,7 +56,7 @@ namespace Adding_a_Custom_Function_to_the_Designer.Controllers
         {
             var report = new StiReport();
             report.Load(StiNetCoreHelper.MapPath(this, "Reports/MyTwoSimpleLists.mrt"));
-            
+
             return StiNetCoreDesigner.GetReportResult(this, report);
         }
 

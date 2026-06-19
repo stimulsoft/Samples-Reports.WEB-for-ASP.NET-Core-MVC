@@ -49,7 +49,7 @@ namespace Configuring_Report_caching.Controllers
         {
             // How to Activate
             //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
-            //Stimulsoft.Base.StiLicense.LoadFromFile("license.key");
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
 
@@ -62,7 +62,7 @@ namespace Configuring_Report_caching.Controllers
         {
             return View();
         }
-        
+
         public IActionResult GetReport(int id = 1)
         {
             var report = new StiReport();
